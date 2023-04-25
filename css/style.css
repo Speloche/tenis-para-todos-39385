@@ -1,0 +1,1132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+/* tipografias  
+font-family: 'Inria Sans', sans-serif;
+
+Cod Colores
+#355D59 verde fondo index
+#063E34 verde fondo botones
+#FFC15D amarillo logo
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*index*/
+.circulo-index {
+    width: 700px;
+    height: 120vh;
+    border-radius: 700px 0px 0px 700px;
+    overflow: hidden;
+    opacity: 0.85;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.hero-index {
+    background-color: #063E34;
+    width: 100%;
+    height: 120vh;
+    font-family: 'Inria Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30% 50% 20%;
+    grid-template-areas:
+
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+
+    ;
+}
+
+.header-index {
+    background-color: #063E34;
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+.logo-header {
+    align-self: center;
+    margin-left: 2rem;
+    margin-top: 0.625rem;
+}
+
+.navbar {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #063E34;
+    list-style: none;
+    gap: 25px;
+    padding: 0.625rem 0.625rem;
+    border-radius: 20px;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    grid-area: main;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: #4a7c77;
+    color: white;
+    opacity: 0.95;
+    width: 100%;
+    height: 10.688rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+footer section a {
+    margin-left: 0.625rem;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-chico {
+    margin-right: 1.25rem;
+}
+
+/* Index Main*/
+
+.main-index {
+    background-color: #063E34;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 40% 60%;
+    grid-template-areas:
+
+        "texto texto . ."
+        ". botones botones botones"
+    ;
+}
+
+.texto-index {
+    margin-top: 2rem;
+    grid-area: texto;
+    width: 50rem;
+    height: 10rem;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    align-self: center;
+    text-align: center;
+    position: relative;
+}
+
+.tenis-para-todos {
+    color: #FFC15D;
+}
+
+.botones-index {
+    grid-area: botones;
+    align-self: first baseline;
+    position: relative;
+}
+
+.botones-index a {
+
+    margin-right: 0.800rem;
+}
+
+/* Nosotros*/
+
+.hero-nosotros {
+    background-image: url(../assets/img/fondo-nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 81.25rem;
+    font-family: 'Inria Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 20% 65% 15%;
+    grid-template-areas:
+
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+
+    ;
+}
+
+.header-nosotros {
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    align-self: flex-end;
+}
+
+/* Nosotros Main */
+
+.main-nosotros {
+    font-family: 'Inria Sans', sans-serif;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-rows: repeat(16, 6.25%);
+}
+
+.nosotros-info {
+    grid-column-start: 5;
+    grid-row-start: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: underline #FFC15D;
+}
+
+.nosotros-info img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.nosotros-info h1 {
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    align-self: center;
+}
+
+.circulo-nosotros {
+    justify-content: left;
+    align-self: center;
+}
+
+.contenedor-nosotros {
+    width: 82rem;
+    height: 23.125rem;
+    background-color: #F1EEEE;
+    border-radius: 1.875rem;
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 2;
+    grid-row-end: 10;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-profe {
+    width: 26.813rem;
+    height: 23.125rem;
+    border-radius: 1.875rem;
+}
+
+.nos-descripcion {
+    width: 750px;
+    height: 274px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 4.3750rem;
+    margin-top: 40px;
+
+}
+
+/*Testimonios*/
+
+.circulo-testimonios {
+    grid-column-start: 5;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    display: flex;
+    text-decoration: underline #FFC15D;
+}
+
+.circulo-testimonios h2 {
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    align-self: center;
+}
+
+.circulo-testimonios img {
+    justify-content: left;
+    align-self: center;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.testi-juan {
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #F1EEEE;
+    width: 540px;
+    height: 248px;
+    border-radius: 1.875rem;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 11;
+    grid-row-end: 17;
+    grid: row start 2;
+    align-self: center;
+    display: flex;
+    box-shadow: 5px 10px 10px #474646;
+}
+
+.juan-vidal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    margin-left: 3px;
+}
+
+h3 span {
+    color: #FFC15D;
+    font-size: 58px;
+    font-weight: 800;
+}
+
+
+.testi-alex {
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #F1EEEE;
+    width: 540px;
+    height: 248px;
+    border-radius: 1.875rem;
+    grid-column-start: 8;
+    grid-column-end: -2;
+    grid-row-start: 11;
+    grid-row-end: 17;
+    grid: row start 2;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    box-shadow: 5px 10px 10px #474646;
+}
+
+.alex-banega {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    margin-left: 3px;
+}
+
+/*Profesores*/
+
+.hero-profesores {
+    background-image: url(../assets/img/fondo-pantalla-profesoress.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    font-family: 'Inria Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 20% 65% 15%;
+    grid-template-areas:
+
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+
+    ;
+}
+
+.header-profesores {
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    align-self: flex-end;
+}
+
+/* Profesores Main */
+
+.main-profesores {
+    font-family: 'Inria Sans', sans-serif;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 25% 25% 25% 1fr;
+    grid-template-rows: 10% 75% 15%;
+    grid-template-areas:
+
+        ". . h1 . ."
+        ". tony tomas marcos ."
+        ". frase frase frase ."
+    ;
+}
+
+.profes-tit {
+    grid-area: h1;
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+    text-decoration: underline #FFC15D;
+}
+
+.profes-tit img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.profes-tit h1 {
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    align-self: center;
+}
+
+.circulo-profesores {
+    justify-content: left;
+    align-self: center;
+}
+
+/*card tony nadal*/
+
+.foto-tony {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 6rem;
+    justify-self: center;
+    position: relative;
+
+}
+
+.card-tony {
+    grid-area: tony;
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    width: 15.564rem;
+    height: 22.119rem;
+    display: flex;
+    flex-direction: column;
+    align-self: last baseline;
+    justify-self: center;
+    box-shadow: 5px 10px 10px #454444;
+}
+
+.tony-h3 {
+    align-self: center;
+    margin-top: 6rem;
+    color: #dda346;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.card-tony p {
+    align-self: center;
+    margin-top: 1.8rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+
+/*CARD TOMAS*/
+
+.foto-tomas {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 6rem;
+    justify-self: center;
+
+}
+
+.card-tomas {
+    grid-area: tomas;
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #D9D9D9;
+    border-radius: 1.875rem;
+    width: 15.564rem;
+    height: 22.119rem;
+    display: flex;
+    flex-direction: column;
+    align-self: last baseline;
+    justify-self: center;
+    box-shadow: 5px 10px 10px #4f4e4e;
+
+}
+
+.tomas-h3 {
+    align-self: center;
+    margin-top: 6rem;
+    color: #dda346;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.card-tomas p {
+    align-self: center;
+    margin-top: 1.8rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+
+/*CARD MARCOS*/
+
+.foto-marcos {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 6rem;
+    justify-self: center;
+
+}
+
+.card-marcos {
+    grid-area: marcos;
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #D9D9D9;
+    border-radius: 1.875rem;
+    width: 15.564rem;
+    height: 22.119rem;
+    display: flex;
+    flex-direction: column;
+    align-self: last baseline;
+    justify-self: center;
+    box-shadow: 5px 10px 10px #504f4f;
+
+
+}
+
+.marcos-h3 {
+    align-self: center;
+    margin-top: 6rem;
+    color: #dda346;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.card-marcos p {
+    align-self: center;
+    margin-top: 1.8rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+/*FRASE PROFESORES*/
+.frase-profesores {
+    grid-area: frase;
+    align-self: center;
+    justify-self: center;
+    background-color: #D9D9D9;
+    width: 56.438rem;
+    height: 4.063rem;
+    border-radius: 1.875rem;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.875rem;
+    text-align: center;
+}
+
+/*CLubes*/
+
+.hero-clubes {
+    background-image: url(../assets/img/fondo-pantalla-clubes.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    font-family: 'Inria Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 25% 60% 15%;
+    grid-template-areas:
+
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+
+    ;
+}
+
+.header-clubes {
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    align-self: flex-end;
+}
+
+/*MAIN CLUBES*/
+
+.main-clubes {
+    font-family: 'Inria Sans', sans-serif;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-rows: 5% 25% 70%;
+    grid-template-areas:
+
+        ". . h1 . ."
+        ". texto texto texto ."
+        ". blanqueada buceo prado ."
+    ;
+}
+
+.clubes-tit {
+    grid-area: h1;
+    display: flex;
+    flex-direction: row;
+    align-self: first baseline;
+    color: white;
+    text-decoration: underline #FFC15D;
+}
+
+.clubes-tit h1 {
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    align-self: center;
+}
+
+.circulo-clubes {
+    justify-content: left;
+    align-self: center;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.texto-clubes {
+    grid-area: texto;
+    align-self: center;
+    justify-self: center;
+    width: 923px;
+    height: 95px;
+    background-color: #d9d9d992;
+    border-radius: 30px;
+}
+
+.texto-clubes p {
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+/*FOTO CLUBES */
+
+
+.img-blanqueada {
+    grid-area: blanqueada;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+
+}
+
+.img-blanqueada-1 {
+    display: flex;
+    flex-direction: column;
+    width: 354px;
+    height: 266px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px #101010;
+}
+
+.la-blanqueada {
+    align-self: center;
+    width: 226px;
+    height: 48px;
+    border-radius: 20px;
+    font-family: 'Inria Sans', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #d9d9d9d2;
+}
+
+
+
+
+
+.img-buceo {
+    grid-area: buceo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+.img-buceo-1 {
+    display: flex;
+    flex-direction: column;
+    width: 354px;
+    height: 266px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px #101010;
+}
+
+.buceo {
+    align-self: center;
+    width: 226px;
+    height: 48px;
+    border-radius: 20px;
+    font-family: 'Inria Sans', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #d9d9d9d2;
+}
+
+
+.img-prado {
+    grid-area: prado;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+.img-prado-1 {
+    display: flex;
+    flex-direction: column;
+    width: 354px;
+    height: 266px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px #101010;
+}
+
+.prado {
+    align-self: center;
+    width: 226px;
+    height: 48px;
+    border-radius: 20px;
+    font-family: 'Inria Sans', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #d9d9d9d2;
+}
+
+
+/*Planes*/
+
+.hero-planes {
+    background-image: url(../assets/img/fondo-pantallas-planes.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200vh;
+    font-family: 'Inria Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 17% 70% 13%;
+    grid-template-areas:
+
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+
+    ;
+}
+
+.header-planes {
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    align-self: flex-end;
+}
+
+/*MAIN PLANES*/
+
+.main-planes {
+    font-family: 'Inria Sans', sans-serif;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 22.5% 22.5% 22.5% 22.5% 5%;
+    grid-template-rows: 5% 15% 40% 40%;
+    grid-template-areas:
+        ". . h1 . . ."
+        ". texto texto texto texto ."
+        ". plan1 plan2 plan3 plan4 ."
+        ". . form form . ."
+    ;
+}
+
+.planes-tit {
+    grid-area: h1;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: first baseline;
+    color: white;
+    text-decoration: underline #FFC15D;
+}
+
+.planes-tit h1 {
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    align-self: center;
+}
+
+.circulo-planes {
+    justify-content: left;
+    align-self: center;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.texto-planes {
+    grid-area: texto;
+    justify-self: center;
+    align-self: center;
+    width: 1000px;
+    height: 138px;
+    background-color: #d9d9d9d2;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+/*PLAN 1*/
+.card-plan1 {
+    grid-area: plan1;
+    background-color: #D9D9D9;
+    width: 271px;
+    height: 343px;
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-plan1 h3 {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 218px;
+    height: 49px;
+    color: #dda346;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.card-list1 {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 243px;
+    height: 226px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.precio-plan-1 {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 243px;
+    height: 226px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #d09a42;
+    text-decoration: underline;
+}
+
+/*PLAN 2*/
+
+.card-plan2 {
+    grid-area: plan2;
+    background-color: #D9D9D9;
+    width: 271px;
+    height: 343px;
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-plan2 h3 {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 218px;
+    height: 49px;
+    color: #dda346;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.card-list2 {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 243px;
+    height: 226px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.precio-plan-2 {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 243px;
+    height: 226px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #d09a42;
+    text-decoration: underline;
+}
+
+/*PLAN 3*/
+
+.card-plan3 {
+    grid-area: plan3;
+    background-color: #D9D9D9;
+    width: 271px;
+    height: 343px;
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-plan3 h3 {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 218px;
+    height: 49px;
+    color: #dda346;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.card-list3 {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 243px;
+    height: 226px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.precio-plan-3 {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 243px;
+    height: 226px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #d09a42;
+    text-decoration: underline;
+}
+
+/*PLAN 4*/
+
+.card-plan4 {
+    grid-area: plan4;
+    background-color: #D9D9D9;
+    width: 271px;
+    height: 343px;
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-plan4 h3 {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 218px;
+    height: 49px;
+    color: #dda346;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.card-list4 {
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 243px;
+    height: 226px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.precio-plan-4 {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 243px;
+    height: 226px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #d09a42;
+    text-decoration: underline;
+}
+
+/*FORMULARIO*/
+
+.contact-form{
+    grid-area: form;
+    align-self: center;
+    background-color: #D9D9D9;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.form input{
+    font-family: 'Inria Sans', sans-serif;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.form textarea{
+    font-family: 'Inria Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#enviar{
+    padding: 10px;
+    width:  150px;
+    border-radius: 20px;
+}
