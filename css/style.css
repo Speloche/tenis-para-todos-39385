@@ -220,7 +220,7 @@ footer {
 .nosotros-info h1 {
     font-family: 'Inria Sans', sans-serif;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 41px;
     align-self: center;
 }
@@ -278,7 +278,7 @@ footer {
 .circulo-testimonios h2 {
     font-family: 'Inria Sans', sans-serif;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 41px;
     align-self: center;
 }
@@ -361,7 +361,7 @@ h3 span {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 150vh;
+    height: 180vh;
     font-family: 'Inria Sans', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -425,7 +425,7 @@ footer {
 .profes-tit h1 {
     font-family: 'Inria Sans', sans-serif;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 41px;
     align-self: center;
 }
@@ -442,7 +442,7 @@ footer {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-top: 6rem;
+    margin-top: 8rem;
     justify-self: center;
     position: relative;
 
@@ -460,6 +460,7 @@ footer {
     align-self: last baseline;
     justify-self: center;
     box-shadow: 5px 10px 10px #454444;
+    margin-bottom: 4rem;
 }
 
 .tony-h3 {
@@ -487,7 +488,7 @@ footer {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-top: 6rem;
+    margin-top: 8rem;
     justify-self: center;
 
 }
@@ -504,6 +505,7 @@ footer {
     align-self: last baseline;
     justify-self: center;
     box-shadow: 5px 10px 10px #4f4e4e;
+    margin-bottom: 4rem;
 
 }
 
@@ -532,7 +534,7 @@ footer {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-top: 6rem;
+    margin-top: 8rem;
     justify-self: center;
 
 }
@@ -549,6 +551,7 @@ footer {
     align-self: last baseline;
     justify-self: center;
     box-shadow: 5px 10px 10px #504f4f;
+    margin-bottom: 4rem;
 
 
 }
@@ -654,7 +657,7 @@ footer {
 .clubes-tit h1 {
     font-family: 'Inria Sans', sans-serif;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 41px;
     align-self: center;
 }
@@ -795,7 +798,7 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 200vh;
+    height: 250vh;
     font-family: 'Inria Sans', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -856,7 +859,7 @@ footer {
 .planes-tit h1 {
     font-family: 'Inria Sans', sans-serif;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 41px;
     align-self: center;
 }
