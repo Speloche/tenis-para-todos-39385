@@ -89,6 +89,28 @@ Cod Colores
     color: #FFC15D;
     font-size: 32px;
     transition: 0.5s;
+    filter:drop-shadow(1px 2px 2px #6b6d51);
+}
+
+.inicio{
+    text-decoration: underline #FFC15D;
+    
+}
+.nosotros{
+    text-decoration: underline #FFC15D;
+    
+}
+.profesores{
+    text-decoration: underline #FFC15D;
+    
+}
+.clubes{
+    text-decoration: underline #FFC15D;
+    
+}
+.planes{
+    text-decoration: underline #FFC15D;
+    
 }
 
 main {
@@ -114,9 +136,28 @@ footer section a {
     text-decoration: none;
     color: white;
 }
+.redes a:hover{
+    font-size: 20px;
+    filter:drop-shadow(1px 2px 2px #6b6d51);
+    color: #FFC15D;
+    transition: 0.5s;
+}
+.location-pin:hover{
+    transform: scale(1.2);
+    filter:drop-shadow(1px 2px 2px #6b6d51);
+    color: #FFC15D;
+    transition: 0.5s;
+
+}
+
 
 .logo-chico {
     margin-right: 1.25rem;
+}
+.logo-chico:hover{
+    transform: scale(1.02);
+    filter:drop-shadow(2px 3px 3px #72c0b2);
+    transition: 0.5s;
 }
 
 /* Index Main*/
@@ -165,7 +206,7 @@ footer section a {
 
 .botones-index a img:hover{
     transform: translateY(-10px);
-    filter:drop-shadow(1px 2px 2px #78c8bb);
+    filter:drop-shadow(2px 3px 3px #78c8bb);
     transition: 0.5s;
 }
 
@@ -845,6 +886,7 @@ main {
     align-self: flex-end;
     height: 100%;
 }
+
 
 /*MAIN PLANES*/
 
