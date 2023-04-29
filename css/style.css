@@ -205,7 +205,7 @@ footer section a {
 }
 
 .botones-index a img:hover{
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     filter:drop-shadow(2px 3px 3px #78c8bb);
     transition: 0.5s;
 }
@@ -213,11 +213,11 @@ footer section a {
 /* Nosotros*/
 
 .hero-nosotros {
-    background-image: url(../assets/img/fondo-nosotros.jpg);
+    background-image: url(../assets/img/fondo-nosotros_1.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 250vh;
+    height: 170vh;
     font-family: 'Inria Sans', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -625,7 +625,7 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 150vh;
+    height: 170vh;
     font-family: 'Inria Sans', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -664,7 +664,7 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: 5% 30% 30% 30% 5%;
-    grid-template-rows: 5% 25% 70%;
+    grid-template-rows: 5% 20% auto;
     grid-template-areas:
 
         ". . h1 . ."
@@ -699,7 +699,7 @@ footer {
 
 .texto-clubes {
     grid-area: texto;
-    align-self: center;
+    align-self: last baseline;
     justify-self: center;
     width: 923px;
     height: 95px;
@@ -727,6 +727,11 @@ footer {
     justify-self: center;
 
 }
+.img-blanqueada-1:hover{
+    box-shadow:0 5px 15px #207562;
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
 
 .img-blanqueada-1 {
     display: flex;
@@ -749,8 +754,13 @@ footer {
     line-height: 40px;
     text-align: center;
     background-color: #d9d9d9d2;
+    box-shadow: 5px 10px 6px #101010;
 }
-
+.la-blanqueada:hover{
+        box-shadow:0 5px 15px #207562;
+        transform: translateY(-10px);
+        transition: 0.4s;
+}
 
 
 
@@ -771,6 +781,11 @@ footer {
     border-radius: 30px;
     box-shadow: 5px 10px 10px #101010;
 }
+.img-buceo-1:hover{
+    box-shadow:0 5px 15px #207562;
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
 
 .buceo {
     align-self: center;
@@ -784,7 +799,14 @@ footer {
     line-height: 40px;
     text-align: center;
     background-color: #d9d9d9d2;
+    box-shadow: 5px 10px 6px #101010;
 }
+.buceo:hover{
+        box-shadow:0 5px 15px #207562;
+        transform: translateY(-10px);
+        transition: 0.4s;
+}
+
 
 
 .img-prado {
@@ -803,6 +825,11 @@ footer {
     border-radius: 30px;
     box-shadow: 5px 10px 10px #101010;
 }
+.img-prado-1:hover{
+    box-shadow:0 5px 15px #207562;
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
 
 .prado {
     align-self: center;
@@ -816,6 +843,12 @@ footer {
     line-height: 40px;
     text-align: center;
     background-color: #d9d9d9d2;
+    box-shadow: 5px 10px 6px #101010;
+}
+.prado:hover{
+        box-shadow:0 5px 15px #207562;
+        transform: translateY(-10px);
+        transition: 0.4s;
 }
 
 
