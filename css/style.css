@@ -458,7 +458,7 @@ footer {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 25% 25% 25% 1fr;
-    grid-template-rows: 10% 75% 15%;
+    grid-template-rows: 8% 70% 22%;
     grid-template-areas:
 
         ". . h1 . ."
@@ -499,10 +499,10 @@ footer {
 .cards-profesores{
     grid-area: card;
     display: flex;
-    align-items: center;
     justify-content: center;
     min-height: 80vh;
     flex-wrap: wrap;
+    margin-top: 2.5rem;
 }
 
 .card{
@@ -628,7 +628,7 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 170vh;
+    height: 150vh;
     font-family: 'Inria Sans', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -718,6 +718,7 @@ footer {
     font-weight: 700;
     font-size: 25px;
     text-align: center;
+    -webkit-text-stroke: 1px #0000006e;
 }
 
 /*FOTO CLUBES */
@@ -954,6 +955,9 @@ main {
     border-radius: 20px;
     box-shadow: 5px 7px 6px #021c16;
 }
+.texto-planes p{
+    -webkit-text-stroke: 1px #00000064;
+}
 
 
 /*PLAN 1*/
@@ -967,8 +971,12 @@ main {
     justify-self: center;
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 10px 6px #101010;
-
+    box-shadow: 5px 10px 6px #063329;
+}
+.card-plan1:hover{
+    box-shadow:0 5px 15px #0b5d4b;
+    transform: translateY(-10px);
+    transition: 0.5s;
 }
 
 .card-plan1 h3 {
@@ -1022,9 +1030,14 @@ main {
     justify-self: center;
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 10px 6px #101010;
-
+    box-shadow: 5px 10px 6px #063329;
 }
+.card-plan2:hover{
+    box-shadow:0 5px 15px #0b5d4b;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
 
 .card-plan2 h3 {
     margin-top: 30px;
@@ -1076,9 +1089,14 @@ main {
     justify-self: center;
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 10px 6px #101010;
-
+    box-shadow: 5px 10px 6px #063329;
 }
+.card-plan3:hover{
+    box-shadow:0 5px 15px #0b5d4b;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
 
 .card-plan3 h3 {
     margin-top: 30px;
@@ -1131,8 +1149,12 @@ main {
     justify-self: center;
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 10px 6px #101010;
-
+    box-shadow: 5px 10px 6px #063329;
+}
+.card-plan4:hover{
+        box-shadow:0 5px 15px #0b5d4b;
+        transform: translateY(-10px);
+        transition: 0.5s;
 }
 
 .card-plan4 h3 {
