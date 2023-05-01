@@ -59,9 +59,10 @@ Cod Colores
     margin-left: 2rem;
     margin-top: 0.625rem;
 }
-.logo-header:hover{
+
+.logo-header:hover {
     transform: scale(1.02);
-    filter:drop-shadow(1px 2px 2px #72c0b2);
+    filter: drop-shadow(1px 2px 2px #72c0b2);
     transition: 0.5s;
 }
 
@@ -85,32 +86,37 @@ Cod Colores
     font-size: 30px;
     text-align: center;
 }
-.navbar li a:hover{
+
+.navbar li a:hover {
     color: #FFC15D;
     font-size: 32px;
     transition: 0.5s;
-    filter:drop-shadow(1px 2px 2px #6b6d51);
+    filter: drop-shadow(1px 2px 2px #6b6d51);
 }
 
-.inicio{
+.inicio {
     text-decoration: underline #FFC15D;
-    
+
 }
-.nosotros{
+
+.nosotros {
     text-decoration: underline #FFC15D;
-    
+
 }
-.profesores{
+
+.profesores {
     text-decoration: underline #FFC15D;
-    
+
 }
-.clubes{
+
+.clubes {
     text-decoration: underline #FFC15D;
-    
+
 }
-.planes{
+
+.planes {
     text-decoration: underline #FFC15D;
-    
+
 }
 
 main {
@@ -136,27 +142,34 @@ footer section a {
     text-decoration: none;
     color: white;
 }
-.redes a:hover{
+
+.redes a:hover {
     font-size: 20px;
-    filter:drop-shadow(1px 2px 2px #6b6d51);
+    filter: drop-shadow(1px 2px 2px #6b6d51);
     color: #FFC15D;
     transition: 0.5s;
 }
-.location-pin:hover{
+
+.location-pin:hover {
     transform: scale(1.2);
-    filter:drop-shadow(1px 2px 2px #6b6d51);
+    filter: drop-shadow(1px 2px 2px #6b6d51);
     color: #FFC15D;
     transition: 0.5s;
 
+}
+
+.tel {
+    font-size: 22px;
 }
 
 
 .logo-chico {
     margin-right: 1.25rem;
 }
-.logo-chico:hover{
+
+.logo-chico:hover {
     transform: scale(1.02);
-    filter:drop-shadow(2px 3px 3px #72c0b2);
+    filter: drop-shadow(2px 3px 3px #72c0b2);
     transition: 0.5s;
 }
 
@@ -204,9 +217,9 @@ footer section a {
     margin-right: 0.800rem;
 }
 
-.botones-index a img:hover{
+.botones-index a img:hover {
     transform: translateY(-15px);
-    filter:drop-shadow(2px 3px 3px #78c8bb);
+    filter: drop-shadow(2px 3px 3px #78c8bb);
     transition: 0.5s;
 }
 
@@ -454,7 +467,7 @@ footer {
 
 /* Profesores Main */
 
-.main-profesores{
+.main-profesores {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 25% 25% 25% 1fr;
@@ -497,7 +510,7 @@ footer {
 /*CARD PROFESORES*/
 
 
-.card-1{
+.card-1 {
     grid-area: card1;
     position: relative;
     width: 300px;
@@ -509,17 +522,19 @@ footer {
     align-self: center;
     justify-self: center;
 }
-.card-1:hover{
-    box-shadow:0 5px 15px #063a2f;
+
+.card-1:hover {
+    box-shadow: 0 5px 15px #063a2f;
     transform: translateY(-10px);
 }
-.head-1{
+
+.head-1 {
     height: 125px;
     width: 100%;
     position: relative;
 }
 
-.circulo-1{
+.circulo-1 {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -528,7 +543,7 @@ footer {
     bottom: 0;
 }
 
-.img-1{
+.img-1 {
     width: 150px;
     height: 150px;
     position: absolute;
@@ -540,7 +555,7 @@ footer {
     transform: translate(-50%);
 }
 
-.img-1 img{
+.img-1 img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -548,7 +563,7 @@ footer {
 
 }
 
-.descrip-1{
+.descrip-1 {
     height: 235px;
     padding: 40px 20px 20px 20px;
     border-bottom: solid 1px #063E34;
@@ -556,25 +571,26 @@ footer {
 
 }
 
-.descrip-1 h5{
+.descrip-1 h5 {
     color: #dda03e;
     font-weight: 700;
     font-size: 30px;
 
 }
-.descrip-1 h6{
+
+.descrip-1 h6 {
     color: #f3b34d;
     font-weight: 500;
     font-size: 17px;
     line-height: 30px;
 }
 
-.descrip-1 p{
+.descrip-1 p {
     margin-top: 7px;
     font-size: 16px;
 }
 
-.contact-perfil-1{
+.contact-perfil-1 {
     width: 100%;
     height: 55px;
     display: flex;
@@ -582,7 +598,7 @@ footer {
     justify-content: center;
 }
 
-.contact-perfil-1 a{
+.contact-perfil-1 a {
     text-decoration: none;
     color: white;
     background: #09594b;
@@ -591,13 +607,13 @@ footer {
     transition: 0.4s;
 }
 
-.contact-perfil-1 a:hover{
+.contact-perfil-1 a:hover {
     transform: translateY(-5px);
     background: #063a2f;
 }
 
 /*CARD 2*/
-.card-2{
+.card-2 {
     grid-area: card2;
     position: relative;
     width: 300px;
@@ -609,17 +625,19 @@ footer {
     align-self: center;
     justify-self: center;
 }
-.card-2:hover{
-    box-shadow:0 5px 15px #063a2f;
+
+.card-2:hover {
+    box-shadow: 0 5px 15px #063a2f;
     transform: translateY(-10px);
 }
-.head-2{
+
+.head-2 {
     height: 125px;
     width: 100%;
     position: relative;
 }
 
-.circulo-2{
+.circulo-2 {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -628,7 +646,7 @@ footer {
     bottom: 0;
 }
 
-.img-2{
+.img-2 {
     width: 150px;
     height: 150px;
     position: absolute;
@@ -640,7 +658,7 @@ footer {
     transform: translate(-50%);
 }
 
-.img-2 img{
+.img-2 img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -648,7 +666,7 @@ footer {
 
 }
 
-.descrip-2{
+.descrip-2 {
     height: 235px;
     padding: 40px 20px 20px 20px;
     border-bottom: solid 1px #063E34;
@@ -656,25 +674,26 @@ footer {
 
 }
 
-.descrip-2 h5{
+.descrip-2 h5 {
     color: #dda03e;
     font-weight: 700;
     font-size: 30px;
 
 }
-.descrip-2 h6{
+
+.descrip-2 h6 {
     color: #f3b34d;
     font-weight: 500;
     font-size: 17px;
     line-height: 30px;
 }
 
-.descrip-2 p{
+.descrip-2 p {
     margin-top: 7px;
     font-size: 16px;
 }
 
-.contact-perfil-2{
+.contact-perfil-2 {
     width: 100%;
     height: 55px;
     display: flex;
@@ -682,7 +701,7 @@ footer {
     justify-content: center;
 }
 
-.contact-perfil-2 a{
+.contact-perfil-2 a {
     text-decoration: none;
     color: white;
     background: #09594b;
@@ -691,12 +710,13 @@ footer {
     transition: 0.4s;
 }
 
-.contact-perfil-2 a:hover{
+.contact-perfil-2 a:hover {
     transform: translateY(-5px);
     background: #063a2f;
 }
+
 /*CARD 3*/
-.card-3{
+.card-3 {
     grid-area: card3;
     position: relative;
     width: 300px;
@@ -708,17 +728,19 @@ footer {
     align-self: center;
     justify-self: center;
 }
-.card-3:hover{
-    box-shadow:0 5px 15px #063a2f;
+
+.card-3:hover {
+    box-shadow: 0 5px 15px #063a2f;
     transform: translateY(-10px);
 }
-.head-3{
+
+.head-3 {
     height: 125px;
     width: 100%;
     position: relative;
 }
 
-.circulo-3{
+.circulo-3 {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -727,7 +749,7 @@ footer {
     bottom: 0;
 }
 
-.img-3{
+.img-3 {
     width: 150px;
     height: 150px;
     position: absolute;
@@ -739,7 +761,7 @@ footer {
     transform: translate(-50%);
 }
 
-.img-3 img{
+.img-3 img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -747,7 +769,7 @@ footer {
 
 }
 
-.descrip-3{
+.descrip-3 {
     height: 235px;
     padding: 40px 20px 20px 20px;
     border-bottom: solid 1px #063E34;
@@ -755,25 +777,26 @@ footer {
 
 }
 
-.descrip-3 h5{
+.descrip-3 h5 {
     color: #dda03e;
     font-weight: 700;
     font-size: 30px;
 
 }
-.descrip-3 h6{
+
+.descrip-3 h6 {
     color: #f3b34d;
     font-weight: 500;
     font-size: 17px;
     line-height: 30px;
 }
 
-.descrip-3 p{
+.descrip-3 p {
     margin-top: 7px;
     font-size: 16px;
 }
 
-.contact-perfil-3{
+.contact-perfil-3 {
     width: 100%;
     height: 55px;
     display: flex;
@@ -781,7 +804,7 @@ footer {
     justify-content: center;
 }
 
-.contact-perfil-3 a{
+.contact-perfil-3 a {
     text-decoration: none;
     color: white;
     background: #09594b;
@@ -790,7 +813,7 @@ footer {
     transition: 0.4s;
 }
 
-.contact-perfil-3 a:hover{
+.contact-perfil-3 a:hover {
     transform: translateY(-5px);
     background: #063a2f;
 }
@@ -924,8 +947,9 @@ footer {
     justify-self: center;
 
 }
-.img-blanqueada-1:hover{
-    box-shadow:0 5px 15px #207562;
+
+.img-blanqueada-1:hover {
+    box-shadow: 0 5px 15px #207562;
     transform: translateY(-10px);
     transition: 0.4s;
 }
@@ -953,10 +977,11 @@ footer {
     background-color: #d9d9d9d2;
     box-shadow: 5px 10px 6px #101010;
 }
-.la-blanqueada:hover{
-        box-shadow:0 5px 15px #207562;
-        transform: translateY(-10px);
-        transition: 0.4s;
+
+.la-blanqueada:hover {
+    box-shadow: 0 5px 15px #207562;
+    transform: translateY(-10px);
+    transition: 0.4s;
 }
 
 
@@ -978,8 +1003,9 @@ footer {
     border-radius: 30px;
     box-shadow: 5px 10px 10px #101010;
 }
-.img-buceo-1:hover{
-    box-shadow:0 5px 15px #207562;
+
+.img-buceo-1:hover {
+    box-shadow: 0 5px 15px #207562;
     transform: translateY(-10px);
     transition: 0.4s;
 }
@@ -998,10 +1024,11 @@ footer {
     background-color: #d9d9d9d2;
     box-shadow: 5px 10px 6px #101010;
 }
-.buceo:hover{
-        box-shadow:0 5px 15px #207562;
-        transform: translateY(-10px);
-        transition: 0.4s;
+
+.buceo:hover {
+    box-shadow: 0 5px 15px #207562;
+    transform: translateY(-10px);
+    transition: 0.4s;
 }
 
 
@@ -1022,8 +1049,9 @@ footer {
     border-radius: 30px;
     box-shadow: 5px 10px 10px #101010;
 }
-.img-prado-1:hover{
-    box-shadow:0 5px 15px #207562;
+
+.img-prado-1:hover {
+    box-shadow: 0 5px 15px #207562;
     transform: translateY(-10px);
     transition: 0.4s;
 }
@@ -1042,10 +1070,11 @@ footer {
     background-color: #d9d9d9d2;
     box-shadow: 5px 10px 6px #101010;
 }
-.prado:hover{
-        box-shadow:0 5px 15px #207562;
-        transform: translateY(-10px);
-        transition: 0.4s;
+
+.prado:hover {
+    box-shadow: 0 5px 15px #207562;
+    transform: translateY(-10px);
+    transition: 0.4s;
 }
 
 
@@ -1147,7 +1176,8 @@ main {
     border-radius: 20px;
     box-shadow: 5px 7px 6px #021c16;
 }
-.texto-planes p{
+
+.texto-planes p {
     -webkit-text-stroke: 1px #00000064;
 }
 
@@ -1165,8 +1195,9 @@ main {
     flex-direction: column;
     box-shadow: 5px 10px 6px #063329;
 }
-.card-plan1:hover{
-    box-shadow:0 5px 15px #0b5d4b;
+
+.card-plan1:hover {
+    box-shadow: 0 5px 15px #0b5d4b;
     transform: translateY(-10px);
     transition: 0.5s;
 }
@@ -1194,7 +1225,7 @@ main {
     line-height: 28px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .precio-plan-1 {
@@ -1224,8 +1255,9 @@ main {
     flex-direction: column;
     box-shadow: 5px 10px 6px #063329;
 }
-.card-plan2:hover{
-    box-shadow:0 5px 15px #0b5d4b;
+
+.card-plan2:hover {
+    box-shadow: 0 5px 15px #0b5d4b;
     transform: translateY(-10px);
     transition: 0.5s;
 }
@@ -1283,8 +1315,9 @@ main {
     flex-direction: column;
     box-shadow: 5px 10px 6px #063329;
 }
-.card-plan3:hover{
-    box-shadow:0 5px 15px #0b5d4b;
+
+.card-plan3:hover {
+    box-shadow: 0 5px 15px #0b5d4b;
     transform: translateY(-10px);
     transition: 0.5s;
 }
@@ -1313,7 +1346,7 @@ main {
     line-height: 28px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .precio-plan-3 {
@@ -1343,10 +1376,11 @@ main {
     flex-direction: column;
     box-shadow: 5px 10px 6px #063329;
 }
-.card-plan4:hover{
-        box-shadow:0 5px 15px #0b5d4b;
-        transform: translateY(-10px);
-        transition: 0.5s;
+
+.card-plan4:hover {
+    box-shadow: 0 5px 15px #0b5d4b;
+    transform: translateY(-10px);
+    transition: 0.5s;
 }
 
 .card-plan4 h3 {
@@ -1389,7 +1423,7 @@ main {
 
 /*FORMULARIO*/
 
-.contact-form{
+.contact-form {
     grid-area: form;
     align-self: last baseline;
     background-color: #4a7c77e6;
@@ -1399,19 +1433,21 @@ main {
     color: #e2a84b;
     box-shadow: 5px 10px 6px #063a2f;
 }
-.contact-form h4{
+
+.contact-form h4 {
     margin-bottom: 10px;
     font-size: 24px;
     text-align: center;
     text-decoration: underline;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
 
 }
-.form input{
+
+.form input {
     font-family: 'Inria Sans', sans-serif;
     margin-bottom: 10px;
     line-height: 30px;
@@ -1419,18 +1455,21 @@ main {
     border-radius: 10px;
     box-shadow: 1px 2px 4px #063a2f;
 }
-.form textarea{
+
+.form textarea {
     font-family: 'Inria Sans', sans-serif;
     margin-bottom: 10px;
     font-size: 16px;
     box-shadow: 1px 2px 4px #063a2f;
 }
-#consulta{
+
+#consulta {
     border-radius: 10px;
 }
-#enviar{
+
+#enviar {
     padding: 7px;
-    width:  150px;
+    width: 150px;
     border-radius: 10px;
     box-shadow: 1px 2px 4px #063a2f;
 }
@@ -1439,69 +1478,168 @@ main {
 /*MEDIA QUERRRIES*/
 
 
-/**/
-@media(max-width:1206px){
-.hero-profesores{
-    height: 239vh;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 20% 70% 10%;
-}
-.header-profesores{
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.logo-header{
-    align-self: center;
-    margin-left: 0;
-    margin-top: 0;
-}
-.navbar{
-    gap: 50px;
-}
-/*MAIN PROFESORES*/
+/* 1024px */
 
-.main-profesores{
-    grid-template-columns: 1fr 25% 25% 25% 1fr;
-    grid-template-rows: 8% 40% 40% 12%;
-    grid-template-areas:
+@media(max-width:1206px) {
+    .hero-profesores {
+        height: 239vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 20% 70% 10%;
+    }
 
-        ". . h1 . ."
-        ". card1 . card2 ."
-        ". . card3 . ."
-        ". frase frase frase ."
-    ;
-}
+    .header-profesores {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 
-.card-3{
-    align-self: last baseline;
-}
-.profes-tit{
-    justify-self: center;
-    align-self: center;
-}
+    .logo-header {
+        align-self: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
 
-}
+    .navbar {
+        gap: 50px;
+    }
 
+    /*MAIN PROFESORES*/
 
+    .main-profesores {
+        grid-template-columns: 1fr 25% 25% 25% 1fr;
+        grid-template-rows: 8% 40% 40% 12%;
+        grid-template-areas:
 
-@media(max-width:768px){
+            ". . h1 . ."
+            ". card1 . card2 ."
+            ". . card3 . ."
+            ". frase frase frase ."
+        ;
+    }
 
-    
+    .card-3 {
+        align-self: last baseline;
+    }
+
+    .profes-tit {
+        justify-self: center;
+        align-self: center;
+    }
 }
 
+/* 768 px */
 
-@media(max-width:425px){
 
-    
+@media(max-width:900px) {
+    .navbar {
+        gap: 40px;
+    }
+
+    .frase-profesores {
+        width: 40rem;
+        height: 5rem;
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+}
+
+@media(max-width:750px) {
+
+    .navbar li a {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:711px) {
+
+    .logo-chico {
+        display: none;
+    }
+
+    .tel {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:640px) {
+    .hero-profesores {
+        height: 410vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20% 65% 15%;
+    }
+
+    .main-profesores {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% 26.6% 26.6% 26.6% 15%;
+        grid-template-areas:
+
+            "h1"
+            "card1"
+            "card2"
+            "card3"
+            "frase"
+        ;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+
+    .redes {
+        display: flex;
+        font-size: 10px;
+    }
+
+    .redes a img {
+        margin-right: 10px;
+    }
+
+    .logo-chico {
+        display: inline;
+        width: 50px;
+    }
+
+    .frase-profesores {
+        width: 30rem;
+        height: 7rem;
+        font-size: 19px;
+        line-height: 2rem;
+    }
+
+}
+
+@media(max-width:425px) {
+    .hero-profesores {
+        height: 430vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20% 60% 20%;
+    }
+
+    .profes-tit h1 {
+        font-size: 30px;
+    }
+
+    .frase-profesores {
+        width: 25rem;
+        height: 8rem;
+        font-size: 19px;
+        line-height: 2rem;
+    }
+    .redes {
+        flex-direction: column;
+        font-size: 20px;
+    }
+
 }
 
 
-@media(max-width:375px){
+@media(max-width:375px) {}
 
-    
-}
-
-@media(max-width:320px){
-
-    
-}
+@media(max-width:320px) {}
