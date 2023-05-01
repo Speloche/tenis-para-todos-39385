@@ -1529,7 +1529,7 @@ main {
 /* 768 px */
 
 
-@media(max-width:900px) {
+@media(max-width:925px) {
     .navbar {
         gap: 40px;
     }
@@ -1561,7 +1561,7 @@ main {
     }
 }
 
-@media(max-width:640px) {
+@media(max-width:660px) {
     .hero-profesores {
         height: 410vh;
         grid-template-columns: 1fr;
@@ -1615,7 +1615,7 @@ main {
 
 }
 
-@media(max-width:425px) {
+@media(max-width:489px) {
     .hero-profesores {
         height: 430vh;
         grid-template-columns: 1fr;
@@ -1636,10 +1636,24 @@ main {
         flex-direction: column;
         font-size: 20px;
     }
+}
+
+@media(max-width:409px) {
+
+    .frase-profesores {
+        width: 19rem;
+        height: 8.5rem;
+        font-size: 16px;
+        line-height: 2rem;
+    }
 
 }
 
-
-@media(max-width:375px) {}
-
-@media(max-width:320px) {}
+@media(max-width:320px) {
+    .frase-profesores {
+        width: 19rem;
+        height: 8.5rem;
+        font-size: 16px;
+        line-height: 2rem;
+    }
+}
