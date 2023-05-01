@@ -420,7 +420,7 @@ h3 span {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 150vh;
+    height: 160vh;
     font-family: 'Inria Sans', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -462,7 +462,7 @@ footer {
     grid-template-areas:
 
         ". . h1 . ."
-        ". card card card ."
+        ". card1 card2 card3 ."
         ". frase frase frase ."
     ;
 }
@@ -496,16 +496,9 @@ footer {
 
 /*CARD PROFESORES*/
 
-.cards-profesores{
-    grid-area: card;
-    display: flex;
-    justify-content: center;
-    min-height: 80vh;
-    flex-wrap: wrap;
-    margin-top: 2.5rem;
-}
 
-.card{
+.card-1{
+    grid-area: card1;
     position: relative;
     width: 300px;
     height: 420px;
@@ -513,19 +506,20 @@ footer {
     border-radius: 10px;
     overflow: hidden;
     transition: 0.4s;
-    margin: 15px 20px;
+    align-self: center;
+    justify-self: center;
 }
-.card:hover{
+.card-1:hover{
     box-shadow:0 5px 15px #063a2f;
     transform: translateY(-10px);
 }
-.head{
+.head-1{
     height: 125px;
     width: 100%;
     position: relative;
 }
 
-.circulo{
+.circulo-1{
     position: absolute;
     width: 300px;
     height: 300px;
@@ -534,7 +528,7 @@ footer {
     bottom: 0;
 }
 
-.img{
+.img-1{
     width: 150px;
     height: 150px;
     position: absolute;
@@ -546,7 +540,7 @@ footer {
     transform: translate(-50%);
 }
 
-.img img{
+.img-1 img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -554,7 +548,7 @@ footer {
 
 }
 
-.descrip{
+.descrip-1{
     height: 235px;
     padding: 40px 20px 20px 20px;
     border-bottom: solid 1px #063E34;
@@ -562,25 +556,25 @@ footer {
 
 }
 
-.descrip h5{
+.descrip-1 h5{
     color: #dda03e;
     font-weight: 700;
     font-size: 30px;
 
 }
-.descrip h6{
+.descrip-1 h6{
     color: #f3b34d;
     font-weight: 500;
     font-size: 17px;
     line-height: 30px;
 }
 
-.descrip p{
+.descrip-1 p{
     margin-top: 7px;
     font-size: 16px;
 }
 
-.contact-perfil{
+.contact-perfil-1{
     width: 100%;
     height: 55px;
     display: flex;
@@ -588,7 +582,7 @@ footer {
     justify-content: center;
 }
 
-.contact-perfil a{
+.contact-perfil-1 a{
     text-decoration: none;
     color: white;
     background: #09594b;
@@ -597,16 +591,214 @@ footer {
     transition: 0.4s;
 }
 
-.contact-perfil a:hover{
+.contact-perfil-1 a:hover{
     transform: translateY(-5px);
     background: #063a2f;
 }
 
+/*CARD 2*/
+.card-2{
+    grid-area: card2;
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.4s;
+    align-self: center;
+    justify-self: center;
+}
+.card-2:hover{
+    box-shadow:0 5px 15px #063a2f;
+    transform: translateY(-10px);
+}
+.head-2{
+    height: 125px;
+    width: 100%;
+    position: relative;
+}
+
+.circulo-2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #063E34;
+    bottom: 0;
+}
+
+.img-2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.img-2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.descrip-2{
+    height: 235px;
+    padding: 40px 20px 20px 20px;
+    border-bottom: solid 1px #063E34;
+    text-align: center;
+
+}
+
+.descrip-2 h5{
+    color: #dda03e;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.descrip-2 h6{
+    color: #f3b34d;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.descrip-2 p{
+    margin-top: 7px;
+    font-size: 16px;
+}
+
+.contact-perfil-2{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-perfil-2 a{
+    text-decoration: none;
+    color: white;
+    background: #09594b;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.contact-perfil-2 a:hover{
+    transform: translateY(-5px);
+    background: #063a2f;
+}
+/*CARD 3*/
+.card-3{
+    grid-area: card3;
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.4s;
+    align-self: center;
+    justify-self: center;
+}
+.card-3:hover{
+    box-shadow:0 5px 15px #063a2f;
+    transform: translateY(-10px);
+}
+.head-3{
+    height: 125px;
+    width: 100%;
+    position: relative;
+}
+
+.circulo-3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #063E34;
+    bottom: 0;
+}
+
+.img-3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.img-3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.descrip-3{
+    height: 235px;
+    padding: 40px 20px 20px 20px;
+    border-bottom: solid 1px #063E34;
+    text-align: center;
+
+}
+
+.descrip-3 h5{
+    color: #dda03e;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.descrip-3 h6{
+    color: #f3b34d;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.descrip-3 p{
+    margin-top: 7px;
+    font-size: 16px;
+}
+
+.contact-perfil-3{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-perfil-3 a{
+    text-decoration: none;
+    color: white;
+    background: #09594b;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.contact-perfil-3 a:hover{
+    transform: translateY(-5px);
+    background: #063a2f;
+}
 
 /*FRASE PROFESORES*/
 .frase-profesores {
     grid-area: frase;
-    align-self: first baseline;
+    align-self: center;
     justify-self: center;
     background-color: #D9D9D9;
     width: 56.438rem;
@@ -1241,4 +1433,56 @@ main {
     width:  150px;
     border-radius: 10px;
     box-shadow: 1px 2px 4px #063a2f;
+}
+
+
+/*MEDIA QUERRRIES*/
+
+
+/**/
+@media(max-width:1024px){
+.hero-profesores{
+    height: 230vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 20% 65% 15%;
+}
+.header-profesores{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.logo-header{
+    align-self: center;
+    margin-left: 0;
+    margin-top: 0;
+}
+.navbar{
+    gap: 50px;
+}
+/*MAIN PROFESORES*/
+
+
+}
+
+
+
+@media(max-width:768px){
+
+    
+}
+
+
+@media(max-width:425px){
+
+    
+}
+
+
+@media(max-width:375px){
+
+    
+}
+
+@media(max-width:320px){
+
+    
 }
