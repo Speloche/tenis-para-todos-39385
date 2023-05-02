@@ -845,26 +845,19 @@ footer {
     width: 100%;
     height: 150vh;
     font-family: 'Inria Sans', sans-serif;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 25% 60% 15%;
-    grid-template-areas:
-
-        "header header header header"
-        "main main main main"
-        "footer footer footer footer"
-
-    ;
 }
-
-.header-clubes {
-    grid-area: header;
+.main-clubes {
+    font-family: 'Inria Sans', sans-serif;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.25rem;
 }
+.img-blanqueada-1 {
+    width: 354px;
+}
+.img-buceo-1{
+    width: 354px;
+}
+
+/*
 
 main {
     grid-area: main;
@@ -875,7 +868,7 @@ footer {
     align-self: flex-end;
 }
 
-/*MAIN CLUBES*/
+/*MAIN CLUBES
 
 .main-clubes {
     font-family: 'Inria Sans', sans-serif;
@@ -936,7 +929,7 @@ footer {
     -webkit-text-stroke: 1px #0000006e;
 }
 
-/*FOTO CLUBES */
+/*FOTO CLUBES 
 
 
 .img-blanqueada {
@@ -1076,7 +1069,7 @@ footer {
     transform: translateY(-10px);
     transition: 0.4s;
 }
-
+*/
 
 /*Planes*/
 
@@ -1477,6 +1470,7 @@ main {
 
 /*MEDIA QUERRRIES*/
 
+/*MEDIA QUERRY ----- PROFESORES------*/
 
 /* 1024px */
 
@@ -1502,7 +1496,7 @@ main {
         gap: 50px;
     }
 
-    /*MAIN PROFESORES*/
+    /*---MAIN PROFESORES-----*/
 
     .main-profesores {
         grid-template-columns: 1fr 25% 25% 25% 1fr;
@@ -1526,7 +1520,7 @@ main {
     }
 }
 
-/* 768 px */
+/*--- 768------ px */
 
 
 @media(max-width:925px) {
@@ -1632,6 +1626,7 @@ main {
         font-size: 19px;
         line-height: 2rem;
     }
+
     .redes {
         flex-direction: column;
         font-size: 20px;
@@ -1657,3 +1652,6 @@ main {
         line-height: 2rem;
     }
 }
+
+
+/*MEDIA QUERRY ----- Clubes ------*/
