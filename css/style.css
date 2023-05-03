@@ -1641,7 +1641,7 @@ main {
     }
 }
 
-@media(max-width:660px) {
+@media(max-width:670px) {
     .hero-profesores {
         height: 410vh;
         grid-template-columns: 1fr;
@@ -1695,7 +1695,7 @@ main {
 
 }
 
-@media(max-width:489px) {
+@media(max-width:495px) {
     .hero-profesores {
         height: 430vh;
         grid-template-columns: 1fr;
@@ -1787,7 +1787,7 @@ main {
         height: 270vh ;
     }
     .texto-clubes {
-        width: 630px;
+        width: 600px;
         height: 140px;
         font-size: 18px;
     }
@@ -1800,7 +1800,7 @@ main {
 
     }
     .texto-clubes {
-        width: 500px;
+        width: 450px;
         height: 170px;
         font-size: 18px;
     }
@@ -1832,7 +1832,7 @@ main {
 
 @media(max-width:450px) {
     .texto-clubes {
-        width: 380px;
+        width: 360px;
         height: 200px;
         font-size: 16px;
     }
@@ -1843,5 +1843,22 @@ main {
         width: 290px;
         height: 220px;
     
+    }
+}
+
+@media(max-width:385px) {
+    .img-blanqueada-1 {
+        width: 290px;
+        height: 202px;
+    }
+
+    .img-buceo-1 {
+        width: 290px;
+        height: 202px;
+    }
+
+    .img-prado-1 {
+        width: 290px;
+        height: 202px;
     }
 }
