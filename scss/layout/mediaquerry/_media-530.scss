@@ -1,0 +1,19 @@
+@media (max-width:530px) {
+
+    .hero-planes {
+        grid-template-rows: 17% 63% 20%;
+        height: 540vh;
+    }
+
+    .texto-planes {
+        width: 390px;
+        height: 210px;
+        font-size: 17px;
+    }
+
+    .contact-form {
+        justify-self: center;
+        width: 390px;
+    }
+
+}

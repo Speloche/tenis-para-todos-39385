@@ -1,0 +1,31 @@
+@media(max-width:992px) {
+    .texto-clubes {
+        width: 800px;
+        height: 95px;
+
+        p {
+            font-size: 23px;
+            letter-spacing: 1px;
+        }
+    }
+
+
+    .hero-planes {
+        grid-template-rows: 18% 70% 12%;
+    }
+
+    .main-planes {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 4% 9% 28% 28% 30%;
+        grid-template-areas: ". h1 . .  " ". texto texto ." ". plan1 plan2 ." ". plan3 plan4 ." ". form form .";
+    }
+
+    .planes-tit {
+        justify-self: last baseline;
+    }
+    .texto-planes {
+        width: 720px;
+        height: 150px;
+        font-size: 22px;
+    }
+}

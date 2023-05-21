@@ -1,0 +1,45 @@
+@media (max-width:780px) {
+
+
+    header {
+        nav {
+            ul {
+                gap: 20px;
+
+                li {
+                    a {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-clubes {
+        height: 280vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20% 67% 13%;
+    }
+
+    .main-clubes {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% 15% 26.6% 26.6% 26.6%;
+        grid-template-areas: "h1" "texto" "blanqueada" "buceo" "prado";
+    }
+
+    .clubes-tit {
+        justify-self: center;
+    }
+
+    .texto-clubes {
+        width: 600px;
+        height: 140px;
+        font-size: 18px;
+    }
+
+    .texto-planes {
+        width: 580px;
+        height: 150px;
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,79 @@
+@media (max-width:1206px) {
+    .hero-profesores {
+        height: 240vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 20% 70% 10%;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .logo-header {
+        align-self: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    header {
+        nav {
+            ul {
+                gap: 50px;
+            }
+
+        }
+    }
+
+    .main-profesores {
+        grid-template-columns: 1fr 25% 25% 25% 1fr;
+        grid-template-rows: 8% 40% 40% 12%;
+        grid-template-areas: ". . h1 . ." ". card1 . card2 ." ". . card3 . ." ". frase frase frase .";
+    }
+
+    .card-3 {
+        align-self: last baseline;
+    }
+
+    .profes-tit {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .hero-clubes {
+        height: 200vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 25% 62% 13%;
+    }
+
+
+    .main-clubes {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5% 15% 40% 40%;
+        grid-template-areas: "h1 ." "texto texto" "blanqueada buceo" "prado .";
+    }
+
+    .clubes-tit {
+        justify-self: last baseline;
+    }
+
+    .texto-clubes {
+        align-self: center;
+    }
+
+    .hero-planes {
+        height: 270vh;
+        grid-template-rows: 18% 70% 12%;
+    }
+
+    .main-planes {
+        grid-template-columns: 5% 30% 30% 30% 5%;
+        grid-template-rows: 4% 9% 28% 28% 30%;
+        grid-template-areas: ". . h1 . . " ". texto texto texto ." ". plan1 plan2 plan3 ." ". .plan4 . ." ". . form . .";
+    }
+
+    .contact-form {
+        justify-self: center;
+        width: 450px;
+    }
+}

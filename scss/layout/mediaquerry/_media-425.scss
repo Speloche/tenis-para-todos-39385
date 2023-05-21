@@ -1,0 +1,16 @@
+@media(max-width:425px) {
+    .hero-clubes {
+        height: 400vh;
+    }
+
+    .main-clubes {
+        grid-template-rows: 5% 20% 25% 25% 25%;
+    }
+
+    .texto-clubes {
+        width: 290px;
+        height: 280px;
+        font-size: 12px;
+
+    }
+}

@@ -1,0 +1,49 @@
+@media (max-width:495px) {
+    .hero-profesores {
+        height: 450vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20% 57% 23%;
+    }
+
+    .profes-tit {
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .frase-profesores {
+        width: 25rem;
+        height: 8rem;
+        font-size: 19px;
+        line-height: 2rem;
+    }
+
+    .redes {
+        flex-direction: column;
+        font-size: 20px;
+        gap: 5px;
+
+        a {
+            img {
+                margin-right: 10px;
+                width: 40px;
+                height: 40px;
+            }
+
+            span {
+                display: inline;
+            }
+        }
+    }
+
+    .hero-clubes {
+        height: 380vh;
+        grid-template-rows: 25% 55% 25%;
+    }
+
+    .texto-clubes {
+        width: 360px;
+        height: 200px;
+        font-size: 16px;
+    }
+}

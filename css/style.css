@@ -1086,9 +1086,6 @@ main {
   border-radius: 10px;
   box-shadow: 1px 2px 4px #063a2f; }
 
-/*MEDIA QUERRRIES*/
-/*MEDIA QUERRY ----- PROFESORES------*/
-/* 1024px */
 @media (max-width: 1206px) {
   .hero-profesores {
     height: 240vh;
@@ -1111,7 +1108,55 @@ main {
     align-self: last baseline; }
   .profes-tit {
     justify-self: center;
-    align-self: center; } }
+    align-self: center; }
+  .hero-clubes {
+    height: 200vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25% 62% 13%; }
+  .main-clubes {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5% 15% 40% 40%;
+    grid-template-areas: "h1 ." "texto texto" "blanqueada buceo" "prado ."; }
+  .clubes-tit {
+    justify-self: last baseline; }
+  .texto-clubes {
+    align-self: center; }
+  .hero-planes {
+    height: 270vh;
+    grid-template-rows: 18% 70% 12%; }
+  .main-planes {
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-rows: 4% 9% 28% 28% 30%;
+    grid-template-areas: ". . h1 . . " ". texto texto texto ." ". plan1 plan2 plan3 ." ". .plan4 . ." ". . form . ."; }
+  .contact-form {
+    justify-self: center;
+    width: 450px; } }
+
+@media (max-width: 1024px) {
+  .texto-planes {
+    width: 800px;
+    height: 140px;
+    justify-content: center; } }
+
+@media (max-width: 992px) {
+  .texto-clubes {
+    width: 800px;
+    height: 95px; }
+    .texto-clubes p {
+      font-size: 23px;
+      letter-spacing: 1px; }
+  .hero-planes {
+    grid-template-rows: 18% 70% 12%; }
+  .main-planes {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4% 9% 28% 28% 30%;
+    grid-template-areas: ". h1 . .  " ". texto texto ." ". plan1 plan2 ." ". plan3 plan4 ." ". form form ."; }
+  .planes-tit {
+    justify-self: last baseline; }
+  .texto-planes {
+    width: 720px;
+    height: 150px;
+    font-size: 22px; } }
 
 @media (max-width: 930px) {
   header nav ul {
@@ -1122,13 +1167,39 @@ main {
     font-size: 20px;
     line-height: 2rem; } }
 
+@media (max-width: 850px) {
+  .hero-clubes {
+    height: 210vh; }
+  .texto-clubes {
+    width: 700px;
+    height: 110px;
+    font-size: 20px; } }
+
 @media (max-width: 780px) {
   header nav ul {
     gap: 20px; }
     header nav ul li a {
-      font-size: 22px; } }
+      font-size: 22px; }
+  .hero-clubes {
+    height: 280vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 67% 13%; }
+  .main-clubes {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 15% 26.6% 26.6% 26.6%;
+    grid-template-areas: "h1" "texto" "blanqueada" "buceo" "prado"; }
+  .clubes-tit {
+    justify-self: center; }
+  .texto-clubes {
+    width: 600px;
+    height: 140px;
+    font-size: 18px; }
+  .texto-planes {
+    width: 580px;
+    height: 150px;
+    font-size: 22px; } }
 
-@media (max-width: 711px) {
+@media (max-width: 730px) {
   .logo-chico {
     display: none; }
   .tel {
@@ -1179,178 +1250,14 @@ main {
     width: 30rem;
     height: 7rem;
     font-size: 19px;
-    line-height: 2rem; } }
-
-@media (max-width: 495px) {
-  .hero-profesores {
-    height: 450vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20% 57% 23%; }
-  .profes-tit h1 {
-    font-size: 30px; }
-  .frase-profesores {
-    width: 25rem;
-    height: 8rem;
-    font-size: 19px;
     line-height: 2rem; }
-  .redes {
-    flex-direction: column;
-    font-size: 20px;
-    gap: 5px; }
-    .redes a img {
-      margin-right: 10px;
-      width: 40px;
-      height: 40px; }
-    .redes a span {
-      display: inline; } }
-
-@media (max-width: 409px) {
-  .frase-profesores {
-    width: 19rem;
-    height: 8.5rem;
-    font-size: 16px;
-    line-height: 2rem; }
-  .navbar {
-    width: 280px; }
-    .navbar li a {
-      font-size: 32px;
-      letter-spacing: 3px; } }
-
-@media (max-width: 320px) {
-  .frase-profesores {
-    width: 19rem;
-    height: 8.5rem;
-    font-size: 16px;
-    line-height: 2rem; } }
-
-/*Media QUerry  CLUBES------*/
-@media (max-width: 1206px) {
-  .hero-clubes {
-    height: 200vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 25% 62% 13%; }
-  .main-clubes {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5% 15% 40% 40%;
-    grid-template-areas: "h1 ." "texto texto" "blanqueada buceo" "prado ."; }
-  .clubes-tit {
-    justify-self: last baseline; }
-  .texto-clubes {
-    align-self: center; } }
-
-@media (max-width: 992px) {
-  .texto-clubes {
-    width: 800px;
-    height: 95px; }
-    .texto-clubes p {
-      font-size: 23px;
-      letter-spacing: 1px; } }
-
-@media (max-width: 850px) {
-  .hero-clubes {
-    height: 210vh; }
-  .texto-clubes {
-    width: 700px;
-    height: 110px;
-    font-size: 20px; } }
-
-@media (max-width: 768px) {
-  .hero-clubes {
-    height: 280vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20% 67% 13%; }
-  .main-clubes {
-    grid-template-columns: 1fr;
-    grid-template-rows: 5% 15% 26.6% 26.6% 26.6%;
-    grid-template-areas: "h1" "texto" "blanqueada" "buceo" "prado"; }
-  .clubes-tit {
-    justify-self: center; }
-  .texto-clubes {
-    width: 600px;
-    height: 140px;
-    font-size: 18px; } }
-
-@media (max-width: 670px) {
   .hero-clubes {
     height: 360vh;
     grid-template-rows: 25% 60% 20%; }
   .texto-clubes {
     width: 450px;
     height: 170px;
-    font-size: 18px; } }
-
-@media (max-width: 495px) {
-  .hero-clubes {
-    height: 380vh;
-    grid-template-rows: 25% 55% 25%; }
-  .texto-clubes {
-    width: 360px;
-    height: 200px;
-    font-size: 16px; } }
-
-@media (max-width: 425px) {
-  .hero-clubes {
-    height: 400vh; }
-  .main-clubes {
-    grid-template-rows: 5% 20% 25% 25% 25%; }
-  .texto-clubes {
-    width: 290px;
-    height: 280px;
-    font-size: 12px; } }
-
-@media (max-width: 385px) {
-  .img-blanqueada a img {
-    width: 290px;
-    height: 202px; }
-  .img-buceo a img {
-    width: 290px;
-    height: 202px; }
-  .img-prado a img {
-    width: 290px;
-    height: 202px; } }
-
-/*Media QUerry  Planes------*/
-@media (max-width: 1206px) {
-  .hero-planes {
-    height: 270vh;
-    grid-template-rows: 18% 70% 12%; }
-  .main-planes {
-    grid-template-columns: 5% 30% 30% 30% 5%;
-    grid-template-rows: 4% 9% 28% 28% 30%;
-    grid-template-areas: ". . h1 . . " ". texto texto texto ." ". plan1 plan2 plan3 ." ". .plan4 . ." ". . form . ."; }
-  .contact-form {
-    justify-self: center;
-    width: 450px; } }
-
-@media (max-width: 1024px) {
-  .texto-planes {
-    width: 800px;
-    height: 140px;
-    justify-content: center; } }
-
-@media (max-width: 950px) {
-  .hero-planes {
-    grid-template-rows: 18% 70% 12%; }
-  .main-planes {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 4% 9% 28% 28% 30%;
-    grid-template-areas: ". h1 . .  " ". texto texto ." ". plan1 plan2 ." ". plan3 plan4 ." ". form form ."; }
-  .planes-tit {
-    justify-self: last baseline; } }
-
-@media (max-width: 830px) {
-  .texto-planes {
-    width: 720px;
-    height: 150px;
-    font-size: 22px; } }
-
-@media (max-width: 780px) {
-  .texto-planes {
-    width: 580px;
-    height: 150px;
-    font-size: 22px; } }
-
-@media (max-width: 670px) {
+    font-size: 18px; }
   .hero-planes {
     grid-template-rows: 18% 66% 16%;
     height: 440vh; }
@@ -1377,7 +1284,57 @@ main {
     justify-self: center;
     width: 390px; } }
 
-@media (max-width: 400px) {
+@media (max-width: 495px) {
+  .hero-profesores {
+    height: 450vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 57% 23%; }
+  .profes-tit h1 {
+    font-size: 30px; }
+  .frase-profesores {
+    width: 25rem;
+    height: 8rem;
+    font-size: 19px;
+    line-height: 2rem; }
+  .redes {
+    flex-direction: column;
+    font-size: 20px;
+    gap: 5px; }
+    .redes a img {
+      margin-right: 10px;
+      width: 40px;
+      height: 40px; }
+    .redes a span {
+      display: inline; }
+  .hero-clubes {
+    height: 380vh;
+    grid-template-rows: 25% 55% 25%; }
+  .texto-clubes {
+    width: 360px;
+    height: 200px;
+    font-size: 16px; } }
+
+@media (max-width: 425px) {
+  .hero-clubes {
+    height: 400vh; }
+  .main-clubes {
+    grid-template-rows: 5% 20% 25% 25% 25%; }
+  .texto-clubes {
+    width: 290px;
+    height: 280px;
+    font-size: 12px; } }
+
+@media (max-width: 409px) {
+  .frase-profesores {
+    width: 19rem;
+    height: 8.5rem;
+    font-size: 16px;
+    line-height: 2rem; }
+  .navbar {
+    width: 280px; }
+    .navbar li a {
+      font-size: 32px;
+      letter-spacing: 3px; }
   .texto-planes {
     width: 280px;
     height: 240px;
@@ -1386,4 +1343,22 @@ main {
     justify-self: center;
     width: 280px; }
   .card1, .card2, .card3, .card4 {
-    transform: translate(15%); } }
+    transform: translate(18%); } }
+
+@media (max-width: 385px) {
+  .img-blanqueada a img {
+    width: 290px;
+    height: 202px; }
+  .img-buceo a img {
+    width: 290px;
+    height: 202px; }
+  .img-prado a img {
+    width: 290px;
+    height: 202px; } }
+
+@media (max-width: 320px) {
+  .frase-profesores {
+    width: 19rem;
+    height: 8.5rem;
+    font-size: 16px;
+    line-height: 2rem; } }

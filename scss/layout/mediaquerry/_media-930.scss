@@ -1,0 +1,17 @@
+@media (max-width:930px) {
+    header {
+        nav {
+            ul {
+                gap: 40px;
+            }
+
+        }
+    }
+
+    .frase-profesores {
+        width: 40rem;
+        height: 5rem;
+        font-size: 20px;
+        line-height: 2rem;
+    }
+}
