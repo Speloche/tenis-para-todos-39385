@@ -143,7 +143,7 @@ footer section a {
     color: white;
 }
 
-.redes a:hover {
+footer section a:hover {
     font-size: 20px;
     filter: drop-shadow(1px 2px 2px #6b6d51);
     color: #FFC15D;
@@ -317,13 +317,13 @@ footer {
     box-shadow: 5px 7px 6px #5c6261;
 }
 
-.img-profe {
+.contenedor-nosotros div img{
     width: 26.813rem;
     height: 23.125rem;
     border-radius: 1.875rem;
 }
 
-.nos-descripcion {
+.contenedor-nosotros div p {
     width: 750px;
     height: 274px;
     font-family: 'Inria Sans', sans-serif;
@@ -491,6 +491,8 @@ footer {
 .profes-tit img {
     width: 2.5rem;
     height: 2.5rem;
+    justify-content: left;
+    align-self: center;
 }
 
 .profes-tit h1 {
@@ -502,10 +504,6 @@ footer {
     color: #042d24;
 }
 
-.circulo-profesores {
-    justify-content: left;
-    align-self: center;
-}
 
 /*CARD PROFESORES*/
 
@@ -855,13 +853,16 @@ footer {
         "footer"
     ;
 }
-.header-clubes{
+
+.header-clubes {
     grid-area: header;
 }
+
 .main-clubes {
     font-family: 'Inria Sans', sans-serif;
     width: 100%;
 }
+
 main {
     grid-area: main;
 }
@@ -870,16 +871,19 @@ footer {
     grid-area: footer;
     align-self: flex-end;
 }
-.clubes-tit img{
+
+.clubes-tit img {
     width: 2.5rem;
     height: 2.5rem;
 }
+
 .clubes-tit h1 {
     font-family: 'Inria Sans', sans-serif;
     font-weight: 700;
     font-size: 44px;
     line-height: 41px;
 }
+
 .texto-clubes {
     width: 923px;
     height: 95px;
@@ -892,14 +896,17 @@ footer {
     height: 266px;
     box-shadow: 5px 10px 10px #101010;
 }
+
 .img-blanqueada-1:hover {
     box-shadow: 0 5px 15px #207562;
 }
+
 .la-blanqueada {
     width: 226px;
     height: 48px;
     box-shadow: 5px 10px 6px #101010;
 }
+
 .img-blanqueada:hover {
     transform: translateY(-10px);
     transition: 0.5s;
@@ -910,14 +917,17 @@ footer {
     height: 266px;
     box-shadow: 5px 10px 10px #101010;
 }
+
 .img-buceo-1:hover {
     box-shadow: 0 5px 15px #207562;
 }
+
 .buceo {
     width: 226px;
     height: 48px;
     box-shadow: 5px 10px 6px #101010;
 }
+
 .img-buceo:hover {
     transform: translateY(-10px);
     transition: 0.5s;
@@ -928,235 +938,22 @@ footer {
     height: 266px;
     box-shadow: 5px 10px 10px #101010;
 }
+
 .img-prado-1:hover {
     box-shadow: 0 5px 15px #207562;
 }
+
 .prado {
     width: 226px;
     height: 48px;
     box-shadow: 5px 10px 6px #101010;
 }
+
 .img-prado:hover {
     transform: translateY(-10px);
     transition: 0.5s;
 }
 
-
-
-
-/*
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-    align-self: flex-end;
-}
-
-/*MAIN CLUBES
-
-.main-clubes {
-    font-family: 'Inria Sans', sans-serif;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 5% 30% 30% 30% 5%;
-    grid-template-rows: 5% 20% auto;
-    grid-template-areas:
-
-        ". . h1 . ."
-        ". texto texto texto ."
-        ". blanqueada buceo prado ."
-    ;
-}
-
-.clubes-tit {
-    grid-area: h1;
-    display: flex;
-    flex-direction: row;
-    align-self: first baseline;
-    color: white;
-    text-decoration: underline #FFC15D;
-}
-
-.clubes-tit h1 {
-    font-family: 'Inria Sans', sans-serif;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 41px;
-    align-self: center;
-}
-
-.circulo-clubes {
-    justify-content: left;
-    align-self: center;
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.texto-clubes {
-    grid-area: texto;
-    align-self: last baseline;
-    justify-self: center;
-    width: 923px;
-    height: 95px;
-    background-color: #c1bebedd;
-    border-radius: 30px;
-    box-shadow: 5px 3px 6px #5c6261;
-}
-
-.texto-clubes p {
-    color: white;
-    font-family: 'Inria Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    text-align: center;
-    -webkit-text-stroke: 1px #0000006e;
-}
-
-/*FOTO CLUBES 
-
-
-.img-blanqueada {
-    grid-area: blanqueada;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
-
-}
-
-.img-blanqueada-1:hover {
-    box-shadow: 0 5px 15px #207562;
-    transform: translateY(-10px);
-    transition: 0.4s;
-}
-
-.img-blanqueada-1 {
-    display: flex;
-    flex-direction: column;
-    width: 354px;
-    height: 266px;
-    border-radius: 30px;
-    box-shadow: 5px 10px 10px #101010;
-}
-
-.la-blanqueada {
-    align-self: center;
-    width: 226px;
-    height: 48px;
-    border-radius: 20px;
-    font-family: 'Inria Sans', sans-serif;
-    color: black;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    text-align: center;
-    background-color: #d9d9d9d2;
-    box-shadow: 5px 10px 6px #101010;
-}
-
-.la-blanqueada:hover {
-    box-shadow: 0 5px 15px #207562;
-    transform: translateY(-10px);
-    transition: 0.4s;
-}
-
-
-
-
-.img-buceo {
-    grid-area: buceo;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
-}
-
-.img-buceo-1 {
-    display: flex;
-    flex-direction: column;
-    width: 354px;
-    height: 266px;
-    border-radius: 30px;
-    box-shadow: 5px 10px 10px #101010;
-}
-
-.img-buceo-1:hover {
-    box-shadow: 0 5px 15px #207562;
-    transform: translateY(-10px);
-    transition: 0.4s;
-}
-
-.buceo {
-    align-self: center;
-    width: 226px;
-    height: 48px;
-    border-radius: 20px;
-    font-family: 'Inria Sans', sans-serif;
-    color: black;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    text-align: center;
-    background-color: #d9d9d9d2;
-    box-shadow: 5px 10px 6px #101010;
-}
-
-.buceo:hover {
-    box-shadow: 0 5px 15px #207562;
-    transform: translateY(-10px);
-    transition: 0.4s;
-}
-
-
-
-.img-prado {
-    grid-area: prado;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
-}
-
-.img-prado-1 {
-    display: flex;
-    flex-direction: column;
-    width: 354px;
-    height: 266px;
-    border-radius: 30px;
-    box-shadow: 5px 10px 10px #101010;
-}
-
-.img-prado-1:hover {
-    box-shadow: 0 5px 15px #207562;
-    transform: translateY(-10px);
-    transition: 0.4s;
-}
-
-.prado {
-    align-self: center;
-    width: 226px;
-    height: 48px;
-    border-radius: 20px;
-    font-family: 'Inria Sans', sans-serif;
-    color: black;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    text-align: center;
-    background-color: #d9d9d9d2;
-    box-shadow: 5px 10px 6px #101010;
-}
-
-.prado:hover {
-    box-shadow: 0 5px 15px #207562;
-    transform: translateY(-10px);
-    transition: 0.4s;
-}
-*/
 
 /*Planes*/
 
@@ -1233,7 +1030,7 @@ main {
     align-self: center;
 }
 
-.circulo-planes {
+.planes-tit img {
     justify-content: left;
     align-self: center;
     width: 2.5rem;
@@ -1294,7 +1091,7 @@ main {
     line-height: 46px;
 }
 
-.card-list1 {
+.card-plan1 ul {
     margin-left: 40px;
     margin-top: 30px;
     width: 243px;
@@ -1308,7 +1105,7 @@ main {
 
 }
 
-.precio-plan-1 {
+.card-plan1 span {
     margin-top: 25px;
     margin-left: 40px;
     width: 243px;
@@ -1753,16 +1550,17 @@ main {
         margin-right: 1rem;
     }
 }
+
 /* 1024px */
 
 @media(max-width:1150px) {
-    .hero-clubes{
-        height: 210vh ;
+    .hero-clubes {
+        height: 210vh;
     }
 
-    .logo-clubes{
-    flex-direction: column;
-    align-items: center;
+    .logo-clubes {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -1773,6 +1571,7 @@ main {
     }
 
 }
+
 @media(max-width:850px) {
     .texto-clubes {
         width: 700px;
@@ -1783,9 +1582,10 @@ main {
 }
 
 @media(max-width:772px) {
-    .hero-clubes{
-        height: 270vh ;
+    .hero-clubes {
+        height: 270vh;
     }
+
     .texto-clubes {
         width: 600px;
         height: 140px;
@@ -1793,20 +1593,23 @@ main {
     }
 
 }
+
 @media(max-width:660px) {
     .hero-clubes {
         height: 340vh;
         grid-template-rows: 22% 62% 16%;
 
     }
+
     .texto-clubes {
         width: 450px;
         height: 170px;
         font-size: 18px;
     }
 }
+
 @media(max-width:576px) {
-    .header-clubes{
+    .header-clubes {
         align-items: center;
         gap: 16px;
         margin-top: 16px;
@@ -1842,7 +1645,7 @@ main {
     .texto-clubes {
         width: 290px;
         height: 220px;
-    
+
     }
 }
 
