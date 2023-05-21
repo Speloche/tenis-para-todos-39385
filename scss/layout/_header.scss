@@ -1,0 +1,85 @@
+header {
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+
+    div {
+        a {
+            img {
+                align-self: center;
+                margin-left: 2rem;
+                margin-top: 0.625rem;
+
+                &:hover {
+                    transform: scale(1.02);
+                    filter: drop-shadow(1px 2px 2px #72c0b2);
+                    transition: 0.5s;
+                }
+            }
+
+        }
+    }
+
+    nav {
+        ul {
+            border: 1px solid white;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: #063E34;
+            list-style: none;
+            gap: 25px;
+            padding: 0.625rem 0.625rem;
+            border-radius: 20px;
+            margin-right: 2rem;
+            position: relative;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 30px;
+                    text-align: center;
+
+                    &:hover {
+                        color: $amarillo-titulo;
+                        font-size: 32px;
+                        transition: 0.5s;
+                        filter: drop-shadow(1px 2px 2px #6b6d51);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header-index {
+    background-color: #063E34;
+}
+
+.inicio {
+    text-decoration: underline $amarillo-titulo;
+}
+
+.nosotros {
+    text-decoration: underline $amarillo-titulo;
+
+}
+
+.profesores {
+    text-decoration: underline $amarillo-titulo;
+
+}
+
+.clubes {
+    text-decoration: underline $amarillo-titulo;
+
+}
+
+.planes {
+    text-decoration: underline $amarillo-titulo;
+
+}

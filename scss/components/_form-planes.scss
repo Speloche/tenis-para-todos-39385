@@ -1,0 +1,49 @@
+.contact-form {
+    grid-area: form;
+    align-self: last baseline;
+    background-color: #4a7c77e6;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    color: #e2a84b;
+    box-shadow: 5px 10px 6px #063a2f;
+
+    h4 {
+        margin-bottom: 10px;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: underline;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        font-family: $font-family;
+        margin-bottom: 10px;
+        line-height: 30px;
+        font-size: 16px;
+        border-radius: 10px;
+        box-shadow: 1px 2px 4px #063a2f;
+    }
+
+    textarea {
+        font-family: $font-family;
+        margin-bottom: 10px;
+        font-size: 16px;
+        box-shadow: 1px 2px 4px #063a2f;
+    }
+}
+
+#consulta {
+    border-radius: 10px;
+}
+
+#enviar {
+    padding: 7px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px #063a2f;
+}

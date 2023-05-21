@@ -1,0 +1,51 @@
+footer {
+    grid-area: footer;
+    background-color: #4a7c77e6;
+    color: white;
+    font-family: $font-family;
+    width: 100%;
+    height: 10.688rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+    position: relative;
+
+    section {
+        a {
+            margin-left: 0.625rem;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                font-size: 20px;
+                color: $amarillo-titulo;
+                transition: 0.5s;
+            }
+
+        }
+    }
+
+    section {
+        div:hover {
+            transform: scale(1.2);
+            color: $amarillo-titulo;
+            transition: 0.5s;
+
+        }
+    }
+
+    div {
+        margin-right: 1.25rem;
+
+        img {
+            &:hover {
+                transform: scale(1.04);
+                filter: drop-shadow(2px 3px 3px #72c0b2);
+                transition: 0.5s;
+            }
+        }
+
+    }
+
+}

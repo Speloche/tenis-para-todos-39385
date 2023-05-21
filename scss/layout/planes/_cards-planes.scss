@@ -1,0 +1,259 @@
+.card1 {
+    grid-area: plan1;
+    transform: translate(20%);
+    cursor: pointer;
+    width: 271px;
+    height: 343px;
+    border-radius: 30px;
+    align-self: center;
+}
+
+.frente1 {
+    transform: perspective(600px) rotateY(0deg);
+
+    img {
+        height: 100%;
+        border-radius: 30px;
+        box-shadow: 5px 7px 6px #143111;
+    }
+}
+
+.frente1,
+.fondo1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+
+.fondo1 {
+    background: #D9D9D9;
+    transform: perspective(600px) rotateY(180deg);
+    border-radius: 30px;
+
+    div {
+        color: #021c16;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 40px;
+
+        h2 {
+            width: 218px;
+            height: 49px;
+            color: #dda346;
+            font-family: $font-family;
+            font-weight: 700;
+            font-size: 30px;
+
+            align-self: center;
+            justify-self: center;
+        }
+
+        ul {
+            width: 243px;
+            height: 150px;
+            font-family: $font-family;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 28px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 35px;
+        }
+
+        span {
+            margin-left: 25px;
+            width: 243px;
+            font-family: $font-family;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 28px;
+            color: #d09a42;
+            text-decoration: underline;
+        }
+    }
+}
+
+.card1:hover>.frente1 {
+    transform: perspective(600px) rotateY(-180deg);
+
+}
+
+.card1:hover>.fondo1 {
+    transform: perspective(600px) rotateY(0deg);
+
+}
+
+.card2 {
+    @extend .card1;
+    grid-area: plan2;
+}
+
+.frente2 {
+    transform: perspective(600px) rotateY(0deg);
+
+    img {
+        height: 100%;
+        border-radius: 30px;
+        box-shadow: 5px 5px 3px #693d0e;
+    }
+}
+
+.frente2,
+.fondo2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+
+.fondo2 {
+    @extend .fondo1;
+}
+
+.card2:hover>.frente2 {
+    transform: perspective(600px) rotateY(-180deg);
+
+}
+
+.card2:hover>.fondo2 {
+    transform: perspective(600px) rotateY(0deg);
+
+}
+
+.card3 {
+    @extend .card1;
+    grid-area: plan3;
+}
+
+.frente3 {
+    transform: perspective(600px) rotateY(0deg);
+
+    img {
+        height: 100%;
+        border-radius: 30px;
+        box-shadow: 5px 5px 3px #0c3183b5;
+    }
+}
+
+.frente3,
+.fondo3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+
+.fondo3 {
+    @extend .fondo1;
+}
+
+.card3:hover>.frente3 {
+    transform: perspective(600px) rotateY(-180deg);
+
+}
+
+.card3:hover>.fondo3 {
+    transform: perspective(600px) rotateY(0deg);
+
+}
+
+.card4 {
+    @extend .card1;
+    grid-area: plan4;
+
+}
+
+.frente4 {
+    transform: perspective(600px) rotateY(0deg);
+
+    img {
+        height: 100%;
+        border-radius: 30px;
+        box-shadow: 5px 5px 3px #114f34b5;
+    }
+}
+
+.frente4,
+.fondo4 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+
+.fondo4 {
+    background: #D9D9D9;
+    transform: perspective(600px) rotateY(180deg);
+    border-radius: 30px;
+
+    div {
+        color: #021c16;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+
+        h2 {
+            width: 218px;
+            height: 49px;
+            color: #dda346;
+            font-family: $font-family;
+            font-weight: 600;
+            font-size: 24px;
+            align-self: center;
+            justify-self: center;
+        }
+
+        ul {
+            width: 243px;
+            height: 150px;
+            font-family: $font-family;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 23px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+        }
+
+        span {
+            margin-left: 25px;
+            margin-top: 20px;
+            width: 243px;
+            font-family: $font-family;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 28px;
+            color: #d09a42;
+            text-decoration: underline;
+        }
+    }
+}
+
+.card4:hover>.frente4 {
+    transform: perspective(600px) rotateY(-180deg);
+
+}
+
+.card4:hover>.fondo4 {
+    transform: perspective(600px) rotateY(0deg);
+
+}
