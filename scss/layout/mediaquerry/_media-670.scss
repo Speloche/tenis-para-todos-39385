@@ -92,7 +92,7 @@
     .main-planes {
         grid-template-columns: auto;
         grid-template-rows: 5% 10% repeat(5, 1fr);
-        grid-template-areas: "h1" "texto" "plan3" "plan4" "plan1" "plan2" "form";
+        grid-template-areas: "h1" "texto" "plan1" "plan2" "plan3" "plan4" "form";
     }
 
     .planes-tit {
