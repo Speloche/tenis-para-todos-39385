@@ -2,14 +2,9 @@
     .hero-profesores {
         height: 450vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 20% 57% 23%;
+        grid-template-rows: 10% 65% 25%;
     }
 
-    .profes-tit {
-        h1 {
-            font-size: 30px;
-        }
-    }
 
     .frase-profesores {
         width: 25rem;
@@ -38,7 +33,7 @@
 
     .hero-clubes {
         height: 380vh;
-        grid-template-rows: 25% 55% 25%;
+        grid-template-rows: 10% 63% 32%;
     }
 
     .texto-clubes {

@@ -2,7 +2,7 @@
     .hero-profesores {
         height: 420vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 22% 63% 15%;
+        grid-template-rows: 10% 70% 20%;
     }
 
     .main-profesores {
@@ -75,7 +75,7 @@
 
     .hero-clubes {
         height: 360vh;
-        grid-template-rows: 25% 60% 20%;
+        grid-template-rows: 12% 68% 25%;
     }
 
     .texto-clubes {
@@ -85,8 +85,8 @@
     }
 
     .hero-planes {
-        grid-template-rows: 18% 66% 16%;
-        height: 440vh;
+        grid-template-rows: 10% 74% 16%;
+        height: 420vh;
     }
 
     .main-planes {
