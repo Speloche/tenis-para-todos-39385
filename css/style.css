@@ -1234,7 +1234,7 @@ main {
     display: inline;
     font-size: 25px;
     color: white;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     cursor: pointer; }
   .nav-menu {
     position: fixed;
@@ -1444,11 +1444,11 @@ main {
 
 @media (max-width: 495px) {
   .hero-nosotros {
-    height: 390vh;
+    height: 380vh;
     grid-template-rows: 10% 66% 24%; }
   .main-nosotros {
     grid-template-columns: 1fr;
-    grid-template-rows: 4% 45% 5% auto; }
+    grid-template-rows: 4% 38% 5% auto; }
   .hero-profesores {
     height: 450vh;
     grid-template-columns: 1fr;
@@ -1519,12 +1519,12 @@ main {
 
 @media (max-width: 385px) {
   .contenedor-nosotros {
-    width: 240px;
-    height: 599px; }
+    width: 220px;
+    height: 630px; }
     .contenedor-nosotros div img {
       display: none; }
     .contenedor-nosotros div p {
-      width: 200px;
+      width: 190px;
       font-size: 13px;
       margin: none;
       line-height: 23px;
@@ -1543,23 +1543,34 @@ main {
   .main-nosotros {
     grid-template-rows: 4% 40% 5% auto; }
   .nosotros-info h1 {
-    font-size: 38px; }
+    font-size: 32px; }
+  .contenedor-nosotros {
+    width: 200px;
+    height: 640px; }
+    .contenedor-nosotros div img {
+      display: none; }
+    .contenedor-nosotros div p {
+      width: 180px;
+      font-size: 12px;
+      margin: none;
+      line-height: 23px;
+      letter-spacing: none; }
   .circulo-testimonios h2 {
-    font-size: 38px; }
+    font-size: 32px; }
   .testi-juan {
-    width: 240px;
-    height: 420px; }
+    width: 220px;
+    height: 430px; }
     .testi-juan div {
-      font-size: 13; }
+      font-size: 12; }
       .testi-juan div p {
-        width: 220px; }
+        width: 210px; }
   .testi-alex {
-    width: 240px;
-    height: 420px; }
+    width: 220px;
+    height: 430px; }
     .testi-alex div {
-      font-size: 13; }
+      font-size: 12; }
       .testi-alex div p {
-        width: 220px; }
+        width: 210px; }
   .bar-btn {
     margin-right: 0.5rem; }
   .hero-planes {
