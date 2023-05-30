@@ -1,9 +1,36 @@
-@media(max-width:320px) {
-    .frase-profesores {
-        width: 19rem;
-        height: 8.5rem;
-        font-size: 16px;
-        line-height: 2rem;
+@media(max-width:340px) {
+    .main-nosotros {
+        grid-template-rows: 4% 40% 5% auto ;
+    }
+    .nosotros-info{
+        h1{
+            font-size:38px;
+        }
+    }
+    .circulo-testimonios {
+        h2{
+            font-size: 38px;
+        }
+    }
+    .testi-juan {
+        width: 240px;
+        height: 420px ;
+        div{
+            font-size: 13;
+            p{
+            width: 220px;
+            }
+        }
+    }
+    .testi-alex {
+        width: 240px;
+        height: 420px ;
+        div{
+            font-size: 13;
+            p{
+            width: 220px;
+            }
+        }
     }
 
     .bar-btn {

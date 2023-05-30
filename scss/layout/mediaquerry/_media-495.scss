@@ -1,4 +1,12 @@
 @media (max-width:495px) {
+    .hero-nosotros {
+        height: 390vh;
+        grid-template-rows: 10% 66% 24%;
+    }
+    .main-nosotros {
+        grid-template-columns: 1fr;
+        grid-template-rows: 4% 45% 5% auto ;
+    }
     .hero-profesores {
         height: 450vh;
         grid-template-columns: 1fr;

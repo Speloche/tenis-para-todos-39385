@@ -1,4 +1,84 @@
 @media (max-width:670px) {
+    .hero-nosotros {
+        height: 270vh;
+        grid-template-columns:1fr;
+        grid-template-rows: 15% 65% 20%;
+        grid-template-areas: "header " "main " "footer ";
+    }
+
+    .main-nosotros {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% 45% 5% auto ;
+        grid-template-areas: "nos-inf" "cont-nos""cir-testi""juan""alex";
+    }
+    .nosotros-info {
+        grid-area: nos-inf ;
+        justify-self: center;
+        img{
+            justify-self: center;
+            align-self: center;
+        }
+    }
+    .contenedor-nosotros {
+        grid-area:cont-nos ;
+        justify-self: center;
+        width: 420px;
+        height: 440px ;
+            div{
+                img{
+                    display: none;
+                }
+                p{
+                    width: 380px;
+                    font-size: 17px;
+                }
+            }
+    }
+
+    .circulo-testimonios {
+        grid-area: cir-testi;
+        justify-self: center;
+    }
+    .testi-juan {
+        grid-area: juan;
+        justify-self: center;
+        align-self: center;
+        width: 470px;
+        height: 200px;
+            div{
+                font-size: 14px;
+                h3{
+                    span{
+                        font-size: 40px;
+                    }
+                }
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+    }
+    .testi-alex {
+        grid-area: alex;
+        justify-self: center;
+        align-self: center;
+        width: 470px;
+        height: 200px;
+            div{
+                font-size: 14px;
+                h3{
+                    span{
+                        font-size: 40px;
+                    }
+                }
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+    }
+
+
     .hero-profesores {
         height: 420vh;
         grid-template-columns: 1fr;
@@ -13,21 +93,6 @@
 
     .header-profesores {
         gap: 10px;
-    }
-
-    .navbar {
-        flex-direction: column;
-        width: 350px;
-        justify-content: center;
-        align-content: center;
-
-        li {
-            a {
-                font-size: 32px;
-                letter-spacing: 3px;
-            }
-
-        }
     }
 
     footer {

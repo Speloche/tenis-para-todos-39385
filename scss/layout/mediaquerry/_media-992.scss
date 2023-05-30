@@ -1,4 +1,17 @@
 @media(max-width:992px) {
+
+    .contenedor-nosotros {
+    width: 480px;
+        div{
+            img{
+                display: none;
+            }
+            p{
+                width: 460px;
+            }
+        }
+    }
+
     .texto-clubes {
         width: 800px;
         height: 95px;

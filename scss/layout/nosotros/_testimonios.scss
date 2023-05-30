@@ -32,7 +32,6 @@
     grid-column-end: 6;
     grid-row-start: 11;
     grid-row-end: 17;
-    grid: row start 2;
     align-self: center;
     display: flex;
     justify-content: space-between;
@@ -48,7 +47,6 @@
         align-items: center;
         text-align: center;
         margin-left: 3px;
-
         h3 {
             span {
                 color: $amarillo-titulo;

@@ -251,7 +251,6 @@ footer {
   grid-column-end: 6;
   grid-row-start: 11;
   grid-row-end: 17;
-  grid: row start 2;
   align-self: center;
   display: flex;
   justify-content: space-between;
@@ -1088,7 +1087,53 @@ main {
   border-radius: 10px;
   box-shadow: 1px 2px 4px #063a2f; }
 
+@media (max-width: 1320px) {
+  .contenedor-nosotros {
+    width: 1000px;
+    height: 350px; }
+    .contenedor-nosotros div img {
+      height: 100%; }
+    .contenedor-nosotros div p {
+      width: 560px;
+      font-size: 19px; }
+  .testi-juan {
+    width: 500px; }
+  .testi-alex {
+    width: 500px; } }
+
 @media (max-width: 1206px) {
+  .hero-nosotros {
+    height: 270vh; }
+  .main-nosotros {
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-rows: repeat(16, 6.25%); }
+  .contenedor-nosotros {
+    grid-row-start: 2;
+    grid-row-end: 8;
+    width: 850px;
+    height: 360px;
+    gap: 20px; }
+    .contenedor-nosotros div img {
+      width: 22rem;
+      height: 100%; }
+    .contenedor-nosotros div p {
+      width: 460px;
+      font-size: 17px;
+      text-align: left;
+      margin-right: none; }
+  .circulo-testimonios {
+    grid-row-start: 8;
+    grid-row-end: 9; }
+  .testi-juan {
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    grid-row-end: 13; }
+  .testi-alex {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 13;
+    grid-row-end: 17; }
   .hero-profesores {
     height: 240vh;
     grid-template-columns: repeat(3, 1fr);
@@ -1137,6 +1182,12 @@ main {
     justify-content: center; } }
 
 @media (max-width: 992px) {
+  .contenedor-nosotros {
+    width: 480px; }
+    .contenedor-nosotros div img {
+      display: none; }
+    .contenedor-nosotros div p {
+      width: 460px; }
   .texto-clubes {
     width: 800px;
     height: 95px; }
@@ -1229,6 +1280,60 @@ main {
     font-size: 18px; } }
 
 @media (max-width: 670px) {
+  .hero-nosotros {
+    height: 270vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 65% 20%;
+    grid-template-areas: "header " "main " "footer "; }
+  .main-nosotros {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 45% 5% auto;
+    grid-template-areas: "nos-inf" "cont-nos" "cir-testi" "juan" "alex"; }
+  .nosotros-info {
+    grid-area: nos-inf;
+    justify-self: center; }
+    .nosotros-info img {
+      justify-self: center;
+      align-self: center; }
+  .contenedor-nosotros {
+    grid-area: cont-nos;
+    justify-self: center;
+    width: 420px;
+    height: 440px; }
+    .contenedor-nosotros div img {
+      display: none; }
+    .contenedor-nosotros div p {
+      width: 380px;
+      font-size: 17px; }
+  .circulo-testimonios {
+    grid-area: cir-testi;
+    justify-self: center; }
+  .testi-juan {
+    grid-area: juan;
+    justify-self: center;
+    align-self: center;
+    width: 470px;
+    height: 200px; }
+    .testi-juan div {
+      font-size: 14px; }
+      .testi-juan div h3 span {
+        font-size: 40px; }
+    .testi-juan img {
+      width: 200px;
+      height: 200px; }
+  .testi-alex {
+    grid-area: alex;
+    justify-self: center;
+    align-self: center;
+    width: 470px;
+    height: 200px; }
+    .testi-alex div {
+      font-size: 14px; }
+      .testi-alex div h3 span {
+        font-size: 40px; }
+    .testi-alex img {
+      width: 200px;
+      height: 200px; }
   .hero-profesores {
     height: 420vh;
     grid-template-columns: 1fr;
@@ -1239,14 +1344,6 @@ main {
     grid-template-areas: "h1" "card1" "card2" "card3" "frase"; }
   .header-profesores {
     gap: 10px; }
-  .navbar {
-    flex-direction: column;
-    width: 350px;
-    justify-content: center;
-    align-content: center; }
-    .navbar li a {
-      font-size: 32px;
-      letter-spacing: 3px; }
   footer {
     height: 100%;
     flex-direction: column;
@@ -1296,6 +1393,44 @@ main {
     font-size: 18px; } }
 
 @media (max-width: 530px) {
+  .hero-nosotros {
+    height: 320vh;
+    grid-template-rows: 13% 67% 20%; }
+  .main-nosotros {
+    grid-template-rows: 5% 35% 5% auto; }
+  .contenedor-nosotros {
+    width: 360px;
+    height: 480px; }
+    .contenedor-nosotros div img {
+      display: none; }
+    .contenedor-nosotros div p {
+      width: 300px;
+      font-size: 14px;
+      margin: none; }
+  .testi-juan {
+    width: 270px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-around; }
+    .testi-juan div {
+      font-size: 14px; }
+      .testi-juan div h3 span {
+        font-size: 40px; }
+    .testi-juan img {
+      width: 200px;
+      height: 200px; }
+  .testi-alex {
+    width: 270px;
+    height: 370px;
+    flex-direction: column;
+    justify-content: space-around; }
+    .testi-alex div {
+      font-size: 14px; }
+      .testi-alex div h3 span {
+        font-size: 40px; }
+    .testi-alex img {
+      width: 200px;
+      height: 200px; }
   .hero-planes {
     grid-template-rows: 10% 70% 20%;
     height: 460vh; }
@@ -1308,6 +1443,12 @@ main {
     width: 390px; } }
 
 @media (max-width: 495px) {
+  .hero-nosotros {
+    height: 390vh;
+    grid-template-rows: 10% 66% 24%; }
+  .main-nosotros {
+    grid-template-columns: 1fr;
+    grid-template-rows: 4% 45% 5% auto; }
   .hero-profesores {
     height: 450vh;
     grid-template-columns: 1fr;
@@ -1336,6 +1477,16 @@ main {
     font-size: 16px; } }
 
 @media (max-width: 425px) {
+  .contenedor-nosotros {
+    width: 280px;
+    height: 530px; }
+    .contenedor-nosotros div img {
+      display: none; }
+    .contenedor-nosotros div p {
+      width: 220px;
+      font-size: 13px;
+      margin: none;
+      line-height: 23px; }
   .hero-clubes {
     height: 400vh; }
   .main-clubes {
@@ -1367,6 +1518,17 @@ main {
     transform: translate(18%); } }
 
 @media (max-width: 385px) {
+  .contenedor-nosotros {
+    width: 240px;
+    height: 599px; }
+    .contenedor-nosotros div img {
+      display: none; }
+    .contenedor-nosotros div p {
+      width: 200px;
+      font-size: 13px;
+      margin: none;
+      line-height: 23px;
+      letter-spacing: none; }
   .img-blanqueada a img {
     width: 290px;
     height: 202px; }
@@ -1377,12 +1539,27 @@ main {
     width: 290px;
     height: 202px; } }
 
-@media (max-width: 320px) {
-  .frase-profesores {
-    width: 19rem;
-    height: 8.5rem;
-    font-size: 16px;
-    line-height: 2rem; }
+@media (max-width: 340px) {
+  .main-nosotros {
+    grid-template-rows: 4% 40% 5% auto; }
+  .nosotros-info h1 {
+    font-size: 38px; }
+  .circulo-testimonios h2 {
+    font-size: 38px; }
+  .testi-juan {
+    width: 240px;
+    height: 420px; }
+    .testi-juan div {
+      font-size: 13; }
+      .testi-juan div p {
+        width: 220px; }
+  .testi-alex {
+    width: 240px;
+    height: 420px; }
+    .testi-alex div {
+      font-size: 13; }
+      .testi-alex div p {
+        width: 220px; }
   .bar-btn {
     margin-right: 0.5rem; }
   .hero-planes {

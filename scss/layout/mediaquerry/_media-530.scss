@@ -1,4 +1,64 @@
 @media (max-width:530px) {
+    .hero-nosotros {
+        height: 320vh;
+        grid-template-rows: 13% 67% 20%;
+    }
+    .main-nosotros {
+        grid-template-rows: 5% 35% 5% auto ;
+    }
+
+    .contenedor-nosotros {
+        width: 360px;
+        height: 480px ;
+            div{
+                img{
+                    display: none;
+                }
+                p{
+                    width:300px;
+                    font-size: 14px;
+                    margin: none;
+                }
+            }
+        }
+
+        .testi-juan {
+            width: 270px;
+            height: 400px;
+            flex-direction: column;
+            justify-content: space-around;
+            div{
+                font-size: 14px;
+                h3{
+                    span{
+                        font-size: 40px;
+                    }
+                }
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+        .testi-alex {
+            width: 270px;
+            height: 370px;
+            flex-direction: column;
+            justify-content: space-around;
+            div{
+                font-size: 14px;
+                h3{
+                    span{
+                        font-size: 40px;
+                    }
+                }
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+
+        }
 
     .hero-planes {
         grid-template-rows: 10% 70% 20%;
