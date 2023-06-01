@@ -1,4 +1,42 @@
 @media(max-width:850px) {
+    .hero-index {
+
+        height: 180vh;
+    }
+
+
+    .main-index {
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 30% 70%;
+        grid-template-areas: "texto texto" "botones botones";
+    }
+    .botones-index{
+        grid-area: botones;
+        justify-items: center;
+        align-content: center;
+        gap: 1.25rem;
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "nosotros profes" "clubes planes";
+    }
+    .boton-nosotros{
+        grid-area: nosotros;
+
+    }
+    .boton-profesores{
+        grid-area: profes;
+    }
+    .boton-clubes{
+        grid-area: clubes;
+    }
+    .boton-planes{
+        grid-area: planes;
+    }
+    .circulo-index {
+        display: none;
+    }
+
     .hero-clubes {
         height: 210vh;
     }
