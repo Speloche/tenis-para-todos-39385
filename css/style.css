@@ -96,6 +96,12 @@ footer {
       filter: drop-shadow(2px 3px 3px #72c0b2);
       transition: 0.5s; }
 
+body {
+  cursor: url(../assets/img/cursor-raqueta.png), auto; }
+
+a {
+  cursor: url(../assets/img/cursor-bola.png), auto; }
+
 .circulo-index {
   width: 700px;
   height: 120vh;
@@ -859,7 +865,7 @@ main {
 .card1, .card2, .card3, .card4 {
   grid-area: plan1;
   transform: translate(20%);
-  cursor: pointer;
+  cursor: url(../assets/img/cursor-bola.png), auto;
   width: 271px;
   height: 343px;
   border-radius: 30px;
@@ -1057,7 +1063,8 @@ main {
   padding: 15px;
   width: 100%;
   border-radius: 20px 20px 0px 0px;
-  color: #e2a84b;
+  color: white;
+  line-height: 30px;
   box-shadow: 5px 10px 6px #063a2f; }
   .contact-form h4 {
     margin-bottom: 10px;
@@ -1565,7 +1572,7 @@ main {
     grid-template-rows: 5% 20% 25% 25% 25%; }
   .texto-clubes {
     width: 290px;
-    height: 280px;
+    height: 300px;
     font-size: 12px; } }
 
 @media (max-width: 409px) {
