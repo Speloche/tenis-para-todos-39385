@@ -1,4 +1,16 @@
 @media (max-width:495px) {
+    .hero-index {
+        height: 230vh;
+        grid-template-rows: 12% 47% 41%;
+    }
+
+    .texto-index{
+        width: 23rem;
+        font-size: 20px;
+    }
+
+
+
     .hero-nosotros {
         height: 380vh;
         grid-template-rows: 10% 66% 24%;
@@ -8,7 +20,7 @@
         grid-template-rows: 4% 38% 5% auto ;
     }
     .hero-profesores {
-        height: 450vh;
+        height: 430vh;
         grid-template-columns: 1fr;
         grid-template-rows: 10% 65% 25%;
     }

@@ -1,4 +1,26 @@
 @media(max-width:425px) {
+    .logo{
+        width: 12.5rem;
+    }
+    
+    .hero-index {
+        height: 320vh;
+        grid-template-rows: 12% 53% 35%;
+    }
+
+    .main-index {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 20% 80%;
+        grid-template-areas: "texto texto" "botones botones";
+    }
+    .botones-index{
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: "nosotros" "profes" "clubes" "planes";
+    }
+
+
+
     .contenedor-nosotros {
         width: 280px;
         height: 530px ;

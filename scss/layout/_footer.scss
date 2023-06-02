@@ -12,6 +12,8 @@ footer {
     position: relative;
 
     section {
+        display: flex;
+        flex-direction: column;
         a {
             margin-left: 0.625rem;
             text-decoration: none;

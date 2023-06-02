@@ -74,14 +74,17 @@ footer {
   align-items: center;
   align-self: flex-end;
   position: relative; }
-  footer section a {
-    margin-left: 0.625rem;
-    text-decoration: none;
-    color: white; }
-    footer section a:hover {
-      font-size: 20px;
-      color: #FFC15D;
-      transition: 0.5s; }
+  footer section {
+    display: flex;
+    flex-direction: column; }
+    footer section a {
+      margin-left: 0.625rem;
+      text-decoration: none;
+      color: white; }
+      footer section a:hover {
+        font-size: 20px;
+        color: #FFC15D;
+        transition: 0.5s; }
   footer section div:hover {
     transform: scale(1.2);
     color: #FFC15D;
@@ -1226,15 +1229,25 @@ main {
 
 @media (max-width: 850px) {
   .hero-index {
-    height: 180vh; }
+    background-image: url(../assets/img/fondo-index-recortado.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150vh; }
   .main-index {
+    background: none;
     grid-template-columns: 50% 50%;
     grid-template-rows: 30% 70%;
     grid-template-areas: "texto texto" "botones botones"; }
+  .texto-index {
+    grid-area: texto;
+    margin-top: none;
+    width: 40rem;
+    font-size: 25px;
+    justify-self: center; }
   .botones-index {
     grid-area: botones;
     justify-items: center;
-    align-content: center;
+    align-self: center;
     gap: 1.25rem;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -1267,7 +1280,7 @@ main {
     display: inline;
     font-size: 25px;
     color: white;
-    margin-right: 1.5rem;
+    margin-right: 2.3rem;
     cursor: pointer; }
   .nav-menu {
     position: fixed;
@@ -1313,6 +1326,12 @@ main {
     font-size: 18px; } }
 
 @media (max-width: 670px) {
+  .hero-index {
+    height: 190vh;
+    grid-template-rows: 15% 55% 30%; }
+  .texto-index {
+    width: 30rem;
+    font-size: 24px; }
   .hero-nosotros {
     height: 270vh;
     grid-template-columns: 1fr;
@@ -1368,7 +1387,7 @@ main {
       width: 200px;
       height: 200px; }
   .hero-profesores {
-    height: 420vh;
+    height: 340vh;
     grid-template-columns: 1fr;
     grid-template-rows: 10% 70% 20%; }
   .main-profesores {
@@ -1384,6 +1403,7 @@ main {
     gap: 15px; }
   .redes {
     display: flex;
+    flex-direction: row;
     font-size: 10px;
     gap: 25px; }
     .redes a img {
@@ -1476,6 +1496,12 @@ main {
     width: 390px; } }
 
 @media (max-width: 495px) {
+  .hero-index {
+    height: 230vh;
+    grid-template-rows: 12% 47% 41%; }
+  .texto-index {
+    width: 23rem;
+    font-size: 20px; }
   .hero-nosotros {
     height: 380vh;
     grid-template-rows: 10% 66% 24%; }
@@ -1483,7 +1509,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 4% 38% 5% auto; }
   .hero-profesores {
-    height: 450vh;
+    height: 430vh;
     grid-template-columns: 1fr;
     grid-template-rows: 10% 65% 25%; }
   .frase-profesores {
@@ -1510,6 +1536,19 @@ main {
     font-size: 16px; } }
 
 @media (max-width: 425px) {
+  .logo {
+    width: 12.5rem; }
+  .hero-index {
+    height: 320vh;
+    grid-template-rows: 12% 53% 35%; }
+  .main-index {
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: "texto texto" "botones botones"; }
+  .botones-index {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "nosotros" "profes" "clubes" "planes"; }
   .contenedor-nosotros {
     width: 280px;
     height: 530px; }
@@ -1551,6 +1590,9 @@ main {
     transform: translate(18%); } }
 
 @media (max-width: 385px) {
+  .texto-index {
+    width: 19rem;
+    font-size: 20px; }
   .contenedor-nosotros {
     width: 220px;
     height: 630px; }
