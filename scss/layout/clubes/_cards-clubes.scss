@@ -1,9 +1,6 @@
 .img-blanqueada {
     grid-area: blanqueada;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
+    @include flex(column,center,center);
 
     &:hover {
         transform: translateY(-10px);
@@ -12,8 +9,7 @@
 
     a {
         img {
-            display: flex;
-            flex-direction: column;
+            @include flex(column,none,none);
             width: 354px;
             height: 266px;
             border-radius: 30px;
@@ -41,10 +37,7 @@
 
 .img-buceo {
     grid-area: buceo;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
+    @include flex(column,center,center);
 
     &:hover {
         transform: translateY(-10px);
@@ -53,8 +46,7 @@
 
     a {
         img {
-            display: flex;
-            flex-direction: column;
+            @include flex(column,none,none);
             width: 354px;
             height: 266px;
             border-radius: 30px;
@@ -82,10 +74,7 @@
 
 .img-prado {
     grid-area: prado;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
+    @include flex(column,center,center);
 
     &:hover {
         transform: translateY(-10px);
@@ -94,8 +83,7 @@
 
     a {
         img {
-            display: flex;
-            flex-direction: column;
+            @include flex(column,none,none);
             width: 354px;
             height: 266px;
             border-radius: 30px;
