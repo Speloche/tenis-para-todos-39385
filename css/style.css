@@ -158,7 +158,7 @@ a {
       transition: 0.5s; }
 
 .hero-nosotros {
-  background-image: url(../assets/img/fondo-nosotros_1.jpg);
+  background-image: url(../assets/img/fondo-nosotros.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -327,7 +327,7 @@ footer {
     height: 240px; }
 
 .hero-profesores {
-  background-image: url(../assets/img/fondo-pantalla-profesoress.jpg);
+  background-image: url(../assets/img/fondo-pantalla-profesores.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -686,18 +686,15 @@ footer {
   justify-self: center;
   width: 923px;
   height: 95px;
-  background-color: #c1bebedd;
-  border-radius: 30px;
-  box-shadow: 5px 3px 6px #5c6261; }
+  border-radius: 30px; }
   .texto-clubes p {
     color: white;
     font-family: "Inria Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 28px;
     letter-spacing: 1.5px;
-    text-align: center;
-    -webkit-text-stroke: 1px #0000006e; }
+    text-align: center; }
 
 .img-blanqueada {
   grid-area: blanqueada;
@@ -856,15 +853,15 @@ main {
   justify-self: center;
   align-self: center;
   width: 1000px;
-  height: 110px;
-  background-color: #d9d9d9d2;
+  height: 140px;
+  background-color: #373188d2;
   font-family: "Inria Sans", sans-serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 30px;
-  color: #063E34;
-  border-radius: 20px;
-  box-shadow: 5px 7px 6px #021c16; }
+  color: white;
+  padding: .3125rem;
+  border-radius: 20px; }
   .texto-planes p {
     text-align: center; }
 
@@ -1455,8 +1452,8 @@ main {
     justify-self: center; }
   .texto-planes {
     width: 500px;
-    height: 150px;
-    font-size: 18px; } }
+    height: 170px;
+    font-size: 20px; } }
 
 @media (max-width: 530px) {
   .hero-nosotros {
@@ -1593,9 +1590,9 @@ main {
       font-size: 32px;
       letter-spacing: 3px; }
   .texto-planes {
-    width: 280px;
-    height: 240px;
-    font-size: 15px; }
+    width: 290px;
+    height: 245px;
+    font-size: 17px; }
   .contact-form {
     justify-self: center;
     width: 280px; }
